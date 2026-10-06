@@ -34,6 +34,10 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          # Enables GitHub Pages on the repo via the API, so the Settings
+          # switch is not a prerequisite for the first successful run.
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
