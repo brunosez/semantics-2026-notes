@@ -22,7 +22,8 @@ author: "Bruno Seznec"          # auteur des NOTES, pas de l'intervention
 speaker: "Prénom Nom"
 affiliation: "Organisation"
 session: "Keynote — Jour 1"     # ou « Track recherche », « Track industrie », …
-start-time: "09:30"             # heure locale, format 24h
+isodate: "2026-09-15"            # ISO date, feeds the JSON-LD
+starttime: "09:30:00+02:00"   # local start time, feeds the JSON-LD
 slides-url: ""                  # laisser vide s'il n'y en a pas
 abstract-url: ""                # lien vers le résumé officiel
 
@@ -80,8 +81,8 @@ trois phrases suffisent.
     {
       "@type": "Event",
       "@id": "#talk",
-      "name": "TITRE DE L'INTERVENTION, tel qu'imprimé au programme",
-      "startDate": "2026-09-15T09:30:00+02:00",
+      "name": "{{< meta title >}}",
+      "startDate": "{{< meta isodate >}}T{{< meta starttime >}}",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
@@ -103,10 +104,10 @@ trois phrases suffisent.
     {
       "@type": "Person",
       "@id": "#speaker",
-      "name": "Prénom Nom",
+      "name": "{{< meta speaker >}}",
       "affiliation": {
         "@type": "Organization",
-        "name": "Organisation"
+        "name": "{{< meta affiliation >}}"
       }
     },
     {
@@ -132,9 +133,9 @@ trois phrases suffisent.
     {
       "@type": "BlogPosting",
       "@id": "#notes",
-      "headline": "Notes — TITRE DE L'INTERVENTION",
+      "headline": "Notes — {{< meta title >}}",
       "inLanguage": "fr",
-      "datePublished": "2026-09-15",
+      "datePublished": "{{< meta isodate >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {

@@ -9,7 +9,7 @@ page-layout: full
 title-block-banner: true
 listing:
   id: exposes-listing
-  contents: talks
+  contents: "./talks/*.qmd"
   type: table
   sort: "date asc"
   fields: [date, title, speaker, description, categories]

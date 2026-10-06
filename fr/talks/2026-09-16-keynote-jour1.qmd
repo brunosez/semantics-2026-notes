@@ -15,7 +15,8 @@ author: "Bruno Seznec"
 speaker: "ESPACE RÉSERVÉ — Nom de l'intervenant"
 affiliation: "ESPACE RÉSERVÉ — Organisation"
 session: "Keynote — Jour 1"
-start-time: "09:30"
+isodate: "2026-09-16"
+starttime: "09:30:00+02:00"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/"
 
@@ -59,8 +60,8 @@ vous êtes d'accord, ce qui vous fait tiquer, ce que ça change pour vos mission
     {
       "@type": "Event",
       "@id": "#talk",
-      "name": "ESPACE RÉSERVÉ — titre de la keynote tel qu'imprimé au programme",
-      "startDate": "2026-09-16T09:30:00+02:00",
+      "name": "{{< meta title >}}",
+      "startDate": "{{< meta isodate >}}T{{< meta starttime >}}",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
@@ -79,10 +80,10 @@ vous êtes d'accord, ce qui vous fait tiquer, ce que ça change pour vos mission
     {
       "@type": "Person",
       "@id": "#speaker",
-      "name": "ESPACE RÉSERVÉ — Nom de l'intervenant",
+      "name": "{{< meta speaker >}}",
       "affiliation": {
         "@type": "Organization",
-        "name": "ESPACE RÉSERVÉ — Organisation"
+        "name": "{{< meta affiliation >}}"
       }
     },
     {
@@ -106,9 +107,9 @@ vous êtes d'accord, ce qui vous fait tiquer, ce que ça change pour vos mission
     {
       "@type": "BlogPosting",
       "@id": "#notes",
-      "headline": "Notes — ESPACE RÉSERVÉ titre de la keynote",
+      "headline": "Notes — {{< meta title >}}",
       "inLanguage": "fr",
-      "datePublished": "2026-09-16",
+      "datePublished": "{{< meta isodate >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {

@@ -9,7 +9,9 @@ page-layout: full
 title-block-banner: true
 listing:
   id: talks-listing
-  contents: talks
+  # The leading "./" matters. A bare "talks" — and even "talks/*.qmd" —
+  # also matches fr/talks/, which drops the French pages into this index.
+  contents: "./talks/*.qmd"
   type: table
   sort: "date asc"
   fields: [date, title, speaker, description, categories]

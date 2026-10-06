@@ -38,7 +38,15 @@ blockquote {
   letter-spacing: 0.04em;
 }
 
+// The description sits on the teal banner, so it must NOT inherit the dark
+// body grey — that lands at ~1.3:1 contrast and is effectively unreadable.
 .quarto-title-block .description {
   font-size: 1.05rem;
   color: #4a555d;
+}
+
+.quarto-title-block.default .quarto-title-banner .description,
+.quarto-title-banner .description,
+.quarto-title-banner p {
+  color: rgba(255, 255, 255, 0.92);
 }

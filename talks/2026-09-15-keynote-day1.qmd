@@ -5,18 +5,19 @@
 # this file before publishing. It exists to show the shape of a filled entry.
 # ===========================================================================
 
+isodate: "2026-09-15"
+starttime: "09:30:00+02:00"
+
 title: "More Than Data: Making Knowledge Graphs Work Together for Actionable Insights"
 subtitle: "the speaker's central claim in one line"
 description: >
-  PLACEHOLDER — one or two sentences that say something specific, shown on the
-  index page.
+  Go to the recap https://www.dbpedia.org/blog/recap-dbpedia-day-in-ghent-semantics-2026/
 date: 2026-09-15
 author: "Bruno Seznec"
 
 speaker: "Prof. Dr. Ricardo Usbeck"
-affiliation: "Leipzig Univ."
+affiliation: "ex Leipzig Univ. / now at Lunenburg"
 session: "Keynote — Day 1"
-start-time: "09:30"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/"
 
@@ -33,22 +34,22 @@ categories: [keynote, DBpedia Day, Wikidata]
 
 ## Notes
 
-- PLACEHOLDER — a claim, not a topic.
-- PLACEHOLDER
-- PLACEHOLDER
+- Announcement of Knowledge graph in Dbpedia .
+- See the beta here https://www.dbpedia.org/resources/knowledge-graphs/
+
 
 ## What I take away
 
-PLACEHOLDER — two or three sentences of your own reading. Where you agree,
-where you don't, and what it changes for the work you actually do.
+- Not clear for me , how to manipulate theses KG (could be huge !!)
 
 ## Open questions
 
-- PLACEHOLDER
+Write a Use Case 
 
 ## Links
 
 - [Official programme](https://2026-eu.semantics.cc/)
+- https://www.dbpedia.org/resources/knowledge-graphs/
 
 ---
 
@@ -60,8 +61,8 @@ where you don't, and what it changes for the work you actually do.
     {
       "@type": "Event",
       "@id": "#talk",
-      "name": "PLACEHOLDER — keynote title as printed in the programme",
-      "startDate": "2026-09-15T09:30:00+02:00",
+      "name": "{{< meta title >}}",
+      "startDate": "{{< meta isodate >}}T{{< meta starttime >}}",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
@@ -82,10 +83,10 @@ where you don't, and what it changes for the work you actually do.
     {
       "@type": "Person",
       "@id": "#speaker",
-      "name": "PLACEHOLDER — Speaker Name",
+      "name": "{{< meta speaker >}}",
       "affiliation": {
         "@type": "Organization",
-        "name": "PLACEHOLDER — Organisation"
+        "name": "{{< meta affiliation >}}"
       }
     },
     {
@@ -111,9 +112,9 @@ where you don't, and what it changes for the work you actually do.
     {
       "@type": "BlogPosting",
       "@id": "#notes",
-      "headline": "Notes — PLACEHOLDER keynote title",
+      "headline": "Notes — {{< meta title >}}",
       "inLanguage": "en",
-      "datePublished": "2026-09-15",
+      "datePublished": "{{< meta isodate >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {

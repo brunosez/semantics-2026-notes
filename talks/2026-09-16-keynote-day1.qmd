@@ -16,7 +16,8 @@ author: "Bruno Seznec"
 speaker: "PLACEHOLDER — Speaker Name"
 affiliation: "PLACEHOLDER — Organisation"
 session: "Keynote — Day 1"
-start-time: "09:30"
+isodate: "2026-09-16"
+starttime: "09:30:00+02:00"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/"
 
@@ -60,8 +61,8 @@ where you don't, and what it changes for the work you actually do.
     {
       "@type": "Event",
       "@id": "#talk",
-      "name": "PLACEHOLDER — keynote title as printed in the programme",
-      "startDate": "2026-09-16T09:30:00+02:00",
+      "name": "{{< meta title >}}",
+      "startDate": "{{< meta isodate >}}T{{< meta starttime >}}",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
@@ -80,10 +81,10 @@ where you don't, and what it changes for the work you actually do.
     {
       "@type": "Person",
       "@id": "#speaker",
-      "name": "PLACEHOLDER — Speaker Name",
+      "name": "{{< meta speaker >}}",
       "affiliation": {
         "@type": "Organization",
-        "name": "PLACEHOLDER — Organisation"
+        "name": "{{< meta affiliation >}}"
       }
     },
     {
@@ -107,9 +108,9 @@ where you don't, and what it changes for the work you actually do.
     {
       "@type": "BlogPosting",
       "@id": "#notes",
-      "headline": "Notes — PLACEHOLDER keynote title",
+      "headline": "Notes — {{< meta title >}}",
       "inLanguage": "en",
-      "datePublished": "2026-09-16",
+      "datePublished": "{{< meta isodate >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {

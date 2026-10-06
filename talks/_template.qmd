@@ -18,7 +18,8 @@ author: "Bruno Seznec"          # author of the NOTES, not of the talk
 speaker: "Firstname Lastname"
 affiliation: "Organisation"
 session: "Keynote — Day 1"      # or "Research track", "Industry track", …
-start-time: "09:30"             # local time, 24h
+isodate: "2026-09-15"            # ISO date, feeds the JSON-LD
+starttime: "09:30:00+02:00"   # local start time, feeds the JSON-LD
 slides-url: ""                  # leave empty if none
 abstract-url: ""                # link to the official abstract
 
@@ -73,8 +74,8 @@ people actually read. Two or three sentences is plenty.
     {
       "@type": "Event",
       "@id": "#talk",
-      "name": "TALK TITLE, exactly as printed in the programme",
-      "startDate": "2026-09-15T09:30:00+02:00",
+      "name": "{{< meta title >}}",
+      "startDate": "{{< meta isodate >}}T{{< meta starttime >}}",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
@@ -96,10 +97,10 @@ people actually read. Two or three sentences is plenty.
     {
       "@type": "Person",
       "@id": "#speaker",
-      "name": "Firstname Lastname",
+      "name": "{{< meta speaker >}}",
       "affiliation": {
         "@type": "Organization",
-        "name": "Organisation"
+        "name": "{{< meta affiliation >}}"
       }
     },
     {
@@ -125,9 +126,9 @@ people actually read. Two or three sentences is plenty.
     {
       "@type": "BlogPosting",
       "@id": "#notes",
-      "headline": "Notes — TALK TITLE",
+      "headline": "Notes — {{< meta title >}}",
       "inLanguage": "en",
-      "datePublished": "2026-09-15",
+      "datePublished": "{{< meta isodate >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {
