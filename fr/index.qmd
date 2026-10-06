@@ -1,0 +1,53 @@
+---
+title: "SEMANTiCS 2026 — Gand"
+subtitle: "Notes des interventions auxquelles j'ai assisté"
+description: |
+  Trois jours à Gand à la conférence internationale sur les systèmes sémantiques.
+  Voici mes notes de travail sur les keynotes et les sessions suivies — écrites
+  d'abord pour ma propre mémoire, partagées parce qu'elles peuvent servir.
+page-layout: full
+title-block-banner: true
+listing:
+  id: exposes-listing
+  contents: talks
+  type: table
+  sort: "date asc"
+  fields: [date, title, speaker, description, categories]
+  field-display-names:
+    speaker: "Intervenant"
+    date: "Date"
+    title: "Titre"
+    description: "Résumé"
+    categories: "Thèmes"
+  categories: true
+  sort-ui: [date, title]
+  filter-ui: true
+  date-format: "D MMMM YYYY"
+---
+
+::: {.callout-note appearance="simple"}
+🇬🇧 This page is also available [in English](../index.qmd).
+:::
+
+## Pourquoi ces notes
+
+Les anciens sujets n'ont pas disparu, les nouveaux se sont empilés dessus. La
+gouvernance et la qualité des données restent le ticket d'entrée ; les
+ontologies passent de la modélisation artisanale à des actifs maintenus ; et
+c'est autour de la génération de bases de connaissances assistée par LLM et du
+GraphRAG que se situent désormais les débats.
+
+Plutôt que de laisser trois jours de notes moisir dans un carnet, je les publie
+ici — une page par intervention, chacune annotée en
+[schema.org](https://schema.org), parce qu'écrire sur les graphes de
+connaissances sans en publier serait assez mal venu.
+
+> **Avertissement.** Ce sont mes notes, pas une transcription. Toute
+> déformation du propos d'un intervenant m'est imputable. Quand c'était
+> possible, j'ai mis en lien le résumé officiel et les supports — c'est là que
+> se trouve la version faisant foi.
+
+## Interventions
+
+::: {#exposes-listing}
+:::

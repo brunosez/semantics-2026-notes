@@ -1,0 +1,39 @@
+---
+title: "About"
+description: "Who wrote these notes, and how to reuse them."
+toc: false
+---
+
+## Who
+
+I'm **Bruno Seznec**, an independent consultant working at CDO/CTO level on
+data and AI architecture — knowledge graphs, data governance, and the
+increasingly load-bearing junction between the two and LLM systems. I also
+train teams on the semantic web stack.
+
+- LinkedIn: [brunoseznec](https://www.linkedin.com/in/brunoseznec/)
+- Conference: [SEMANTiCS 2026]({{< var conf.url >}}), {{< var conf.city >}}, {{< var conf.country >}}
+
+## How to reuse this
+
+The notes are published under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — reuse them freely
+with attribution. The slides and abstracts they link to belong to their
+respective speakers and are **not** covered by that licence.
+
+## Structured data
+
+Every talk page embeds a `schema.org` JSON-LD block in a `<script>` tag,
+describing the talk as an `Event` (linked to the conference via `superEvent`),
+the speaker as a `Person`, and the notes themselves as a `BlogPosting` whose
+`about` points at the talk.
+
+You can pull the structured data out of any page with an extractor of your
+choice, or inspect it in the page source. If you spot a modelling mistake,
+[open an issue](https://github.com/brunosez/semantics-2026-notes/issues) — I'd
+rather be corrected than consistent.
+
+## Corrections
+
+If I've misrepresented your talk, tell me and I'll fix it. The repository
+history is public, so corrections are visible rather than silent.

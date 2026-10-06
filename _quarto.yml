@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "SEMANTiCS 2026 — Notes"
+  description: "Conference notes from SEMANTiCS 2026 in Ghent: keynotes and sessions on knowledge graphs, ontologies, data governance, GraphRAG and LLM-assisted KB generation."
+  site-url: "https://brunosez.github.io/semantics-2026-notes"
+  repo-url: "https://github.com/brunosez/semantics-2026-notes"
+  open-graph: true
+  twitter-card: true
+  navbar:
+    title: "SEMANTiCS 2026"
+    left:
+      - href: index.qmd
+        text: "Talks"
+      - href: about.qmd
+        text: "About"
+    right:
+      - text: "EN"
+        href: index.qmd
+      - text: "FR"
+        href: fr/index.qmd
+      - icon: github
+        href: "https://github.com/brunosez/semantics-2026-notes"
+        aria-label: GitHub
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/brunoseznec/"
+        aria-label: LinkedIn
+  page-footer:
+    left: "Notes by Bruno Seznec"
+    center: "SEMANTiCS 2026 — Ghent, Belgium"
+    right: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-depth: 3
+    anchor-sections: true
+    code-copy: true
+    smooth-scroll: true
+
+lang: en
+
+# These flow into every page and are reachable as {{< meta ... >}} where useful.
+author: "Bruno Seznec"

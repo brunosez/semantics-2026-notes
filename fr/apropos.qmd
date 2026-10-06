@@ -1,0 +1,39 @@
+---
+title: "À propos"
+description: "Qui écrit ces notes, et comment les réutiliser."
+toc: false
+---
+
+## Qui
+
+Je suis **Bruno Seznec**, consultant indépendant intervenant à un niveau
+CDO/CTO sur l'architecture data et IA — graphes de connaissances, gouvernance
+des données, et la jonction de plus en plus structurante entre les deux et les
+systèmes à base de LLM. J'interviens également en formation sur la pile du web
+sémantique.
+
+- LinkedIn : [brunoseznec](https://www.linkedin.com/in/brunoseznec/)
+- Conférence : [SEMANTiCS 2026]({{< var conf.url >}}), Gand, Belgique
+
+## Réutilisation
+
+Les notes sont publiées sous licence
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — réutilisation libre
+avec attribution. Les supports et résumés mis en lien appartiennent à leurs
+auteurs et ne sont **pas** couverts par cette licence.
+
+## Données structurées
+
+Chaque page d'intervention embarque un bloc JSON-LD `schema.org` dans une
+balise `<script>` : l'intervention comme `Event` (rattachée à la conférence via
+`superEvent`), l'intervenant comme `Person`, et les notes elles-mêmes comme
+`BlogPosting` dont la propriété `about` pointe vers l'intervention.
+
+Si vous repérez une erreur de modélisation,
+[ouvrez une issue](https://github.com/brunosez/semantics-2026-notes/issues) — je
+préfère être corrigé que cohérent.
+
+## Corrections
+
+Si j'ai déformé votre propos, dites-le-moi et je corrige. L'historique du dépôt
+est public : les corrections sont visibles plutôt que silencieuses.

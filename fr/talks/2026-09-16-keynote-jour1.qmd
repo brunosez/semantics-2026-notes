@@ -1,0 +1,129 @@
+---
+# ===========================================================================
+# EXEMPLE — toutes les valeurs ci-dessous sont des ESPACES RÉSERVÉS.
+# Rien ici n'est une affirmation factuelle sur une intervention réelle.
+# Remplacez tout, ou supprimez ce fichier avant publication.
+# ===========================================================================
+
+title: "ESPACE RÉSERVÉ — titre de la keynote tel qu'imprimé au programme"
+subtitle: "ESPACE RÉSERVÉ — la thèse centrale en une ligne"
+description: >
+  ESPACE RÉSERVÉ — une ou deux phrases précises, affichées sur la page d'index.
+date: 2026-09-16
+author: "Bruno Seznec"
+
+speaker: "ESPACE RÉSERVÉ — Nom de l'intervenant"
+affiliation: "ESPACE RÉSERVÉ — Organisation"
+session: "Keynote — Jour 1"
+start-time: "09:30"
+slides-url: ""
+abstract-url: "https://2026-eu.semantics.cc/"
+
+categories: [keynote, gouvernance-des-donnees, graphrag]
+---
+
+::: {.talk-meta}
+**{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
+:::
+
+## En une phrase
+
+> ESPACE RÉSERVÉ — l'unique affirmation portée par l'intervention.
+
+## Notes
+
+- ESPACE RÉSERVÉ — une affirmation, pas un thème.
+- ESPACE RÉSERVÉ
+- ESPACE RÉSERVÉ
+
+## Ce que j'en retiens
+
+ESPACE RÉSERVÉ — deux ou trois phrases de lecture personnelle. Ce avec quoi
+vous êtes d'accord, ce qui vous fait tiquer, ce que ça change pour vos missions.
+
+## Questions ouvertes
+
+- ESPACE RÉSERVÉ
+
+## Liens
+
+- [Programme officiel](https://2026-eu.semantics.cc/)
+
+---
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Event",
+      "@id": "#talk",
+      "name": "ESPACE RÉSERVÉ — titre de la keynote tel qu'imprimé au programme",
+      "startDate": "2026-09-16T09:30:00+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
+      "location": {
+        "@type": "Place",
+        "name": "À COMPLÉTER — nom du lieu",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ghent",
+          "addressCountry": "BE"
+        }
+      },
+      "performer": { "@id": "#speaker" },
+      "about": ["Gouvernance des données", "GraphRAG"]
+    },
+    {
+      "@type": "Person",
+      "@id": "#speaker",
+      "name": "ESPACE RÉSERVÉ — Nom de l'intervenant",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "ESPACE RÉSERVÉ — Organisation"
+      }
+    },
+    {
+      "@type": "Event",
+      "@id": "https://2026-eu.semantics.cc/#conference",
+      "name": "SEMANTiCS 2026",
+      "alternateName": "International Conference on Semantic Systems 2026",
+      "url": "https://2026-eu.semantics.cc/",
+      "startDate": "2026-09-FILL",
+      "endDate": "2026-09-FILL",
+      "location": {
+        "@type": "Place",
+        "name": "Ghent",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ghent",
+          "addressCountry": "BE"
+        }
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#notes",
+      "headline": "Notes — ESPACE RÉSERVÉ titre de la keynote",
+      "inLanguage": "fr",
+      "datePublished": "2026-09-16",
+      "about": { "@id": "#talk" },
+      "mentions": { "@id": "#speaker" },
+      "author": {
+        "@type": "Person",
+        "name": "Bruno Seznec",
+        "url": "https://www.linkedin.com/in/brunoseznec/"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "SEMANTiCS 2026 — Notes",
+        "url": "https://bruno16.github.io/semantics-2026-notes"
+      }
+    }
+  ]
+}
+</script>
+```

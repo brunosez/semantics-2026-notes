@@ -1,0 +1,20 @@
+# Reusable values, resolved by the {{< var ... >}} shortcode — which works
+# inside the raw-HTML JSON-LD blocks too (tested on Quarto 1.6.39). So the
+# conference facts live HERE ONLY: change a date once and every page follows.
+conf:
+  name: "SEMANTiCS 2026"
+  city: "Ghent"
+  country: "Belgium"
+  countrycode: "BE"
+  venue: "Music Center de Bijloke"
+  street: "Bijlokekaai 7"
+  postcode: "9000"
+  url: "https://2026-eu.semantics.cc/"
+  start: "2026-09-15"
+  end: "2026-09-17"
+  id: "https://2026-eu.semantics.cc/#conference"
+
+author:
+  name: "Bruno Seznec"
+  linkedin: "https://www.linkedin.com/in/brunoseznec/"
+  role: "Architecte IA — Data & Gouvernance des données"

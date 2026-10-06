@@ -1,0 +1,47 @@
+---
+title: "SEMANTiCS 2026 — Ghent"
+subtitle: "Notes from the talks I attended"
+description: |
+  Three days in Ghent at the International Conference on Semantic Systems.
+  These are my working notes on the keynotes and sessions I sat in on —
+  written for my own recall first, shared because they may be useful to others.
+page-layout: full
+title-block-banner: true
+listing:
+  id: talks-listing
+  contents: talks
+  type: table
+  sort: "date asc"
+  fields: [date, title, speaker, description, categories]
+  field-display-names:
+    speaker: "Speaker"
+  categories: true
+  sort-ui: [date, title]
+  filter-ui: true
+  date-format: "D MMMM YYYY"
+---
+
+::: {.callout-note appearance="simple"}
+🇫🇷 Cette page existe aussi [en français](fr/index.qmd).
+:::
+
+## Why these notes exist
+
+The old topics haven't left and the new ones have arrived on top of them. Data
+governance and data quality are still the entry ticket; ontologies are moving
+from artisanal modelling to maintained assets; and LLM-assisted KB generation
+and GraphRAG are now where the arguments happen.
+
+Rather than let three days of notes rot in a notebook, I'm putting them here —
+one page per talk, each one marked up with [schema.org](https://schema.org)
+structured data, because writing about knowledge graphs without publishing any
+would be a poor look.
+
+> **Caveat.** These are my notes, not a transcript. Any misreading of a
+> speaker's argument is mine. Where I could, I've linked the official abstract
+> and the slides — go there for the authoritative version.
+
+## Talks
+
+::: {#talks-listing}
+:::

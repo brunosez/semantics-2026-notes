@@ -1,0 +1,130 @@
+---
+# ===========================================================================
+# WORKED EXAMPLE — every value below is a PLACEHOLDER awaiting your real notes.
+# Nothing here is a factual claim about a real talk. Replace it all, or delete
+# this file before publishing. It exists to show the shape of a filled entry.
+# ===========================================================================
+
+title: "PLACEHOLDER — keynote title as printed in the programme"
+subtitle: "PLACEHOLDER — the speaker's central claim in one line"
+description: >
+  PLACEHOLDER — one or two sentences that say something specific, shown on the
+  index page.
+date: 2026-09-16
+author: "Bruno Seznec"
+
+speaker: "PLACEHOLDER — Speaker Name"
+affiliation: "PLACEHOLDER — Organisation"
+session: "Keynote — Day 1"
+start-time: "09:30"
+slides-url: ""
+abstract-url: "https://2026-eu.semantics.cc/"
+
+categories: [keynote, data-governance, graphrag]
+---
+
+::: {.talk-meta}
+**{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
+:::
+
+## In one sentence
+
+> PLACEHOLDER — the one claim the talk was making.
+
+## Notes
+
+- PLACEHOLDER — a claim, not a topic.
+- PLACEHOLDER
+- PLACEHOLDER
+
+## What I take away
+
+PLACEHOLDER — two or three sentences of your own reading. Where you agree,
+where you don't, and what it changes for the work you actually do.
+
+## Open questions
+
+- PLACEHOLDER
+
+## Links
+
+- [Official programme](https://2026-eu.semantics.cc/)
+
+---
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Event",
+      "@id": "#talk",
+      "name": "PLACEHOLDER — keynote title as printed in the programme",
+      "startDate": "2026-09-16T09:30:00+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
+      "location": {
+        "@type": "Place",
+        "name": "FILL-IN — venue name",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ghent",
+          "addressCountry": "BE"
+        }
+      },
+      "performer": { "@id": "#speaker" },
+      "about": ["Data governance", "GraphRAG"]
+    },
+    {
+      "@type": "Person",
+      "@id": "#speaker",
+      "name": "PLACEHOLDER — Speaker Name",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "PLACEHOLDER — Organisation"
+      }
+    },
+    {
+      "@type": "Event",
+      "@id": "https://2026-eu.semantics.cc/#conference",
+      "name": "SEMANTiCS 2026",
+      "alternateName": "International Conference on Semantic Systems 2026",
+      "url": "https://2026-eu.semantics.cc/",
+      "startDate": "2026-09-FILL",
+      "endDate": "2026-09-FILL",
+      "location": {
+        "@type": "Place",
+        "name": "Ghent",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ghent",
+          "addressCountry": "BE"
+        }
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#notes",
+      "headline": "Notes — PLACEHOLDER keynote title",
+      "inLanguage": "en",
+      "datePublished": "2026-09-16",
+      "about": { "@id": "#talk" },
+      "mentions": { "@id": "#speaker" },
+      "author": {
+        "@type": "Person",
+        "name": "Bruno Seznec",
+        "url": "https://www.linkedin.com/in/brunoseznec/"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "SEMANTiCS 2026 — Notes",
+        "url": "https://bruno16.github.io/semantics-2026-notes"
+      }
+    }
+  ]
+}
+</script>
+```

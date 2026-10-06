@@ -1,0 +1,155 @@
+---
+# ---------------------------------------------------------------------------
+# COPIEZ CE FICHIER, ne l'éditez pas.
+#   cp fr/talks/_modele.qmd fr/talks/2026-09-15-keynote-jour1.qmd
+# Les fichiers commençant par "_" sont ignorés par Quarto : ce modèle n'est
+# jamais publié. Convention de nommage : AAAA-MM-JJ-slug-court.qmd
+#
+# Gardez le MÊME nom de fichier (au slug près) que la version anglaise :
+# c'est ce qui rend le lien entre les deux langues évident et maintenable.
+# ---------------------------------------------------------------------------
+
+title: "TITRE DE L'INTERVENTION, tel qu'imprimé au programme"
+subtitle: "La thèse centrale de l'intervenant, en une ligne, avec vos mots"
+description: >
+  Une ou deux phrases. C'est ce qui s'affiche sur la page d'index : qu'elles
+  disent quelque chose — pas « une intervention sur les graphes de
+  connaissances ».
+date: 2026-09-15
+author: "Bruno Seznec"          # auteur des NOTES, pas de l'intervention
+
+# --- champs personnalisés, repris dans le listing et dans le JSON-LD ---
+speaker: "Prénom Nom"
+affiliation: "Organisation"
+session: "Keynote — Jour 1"     # ou « Track recherche », « Track industrie », …
+start-time: "09:30"             # heure locale, format 24h
+slides-url: ""                  # laisser vide s'il n'y en a pas
+abstract-url: ""                # lien vers le résumé officiel
+
+categories: [keynote, graphes-de-connaissances]   # vocabulaire partagé : voir README
+---
+
+::: {.talk-meta}
+**{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
+:::
+
+## En une phrase
+
+> L'unique affirmation portée par l'intervenant. Si vous n'arrivez pas à écrire
+> cette ligne, c'est que l'intervention n'est pas comprise — relisez le résumé
+> avant d'écrire le reste.
+
+## Notes
+
+- Premier point de fond.
+- Deuxième. Formulez des affirmations, pas des thèmes : « X ne passe pas à
+  l'échelle au-delà de Y » vaut mieux que « discussion sur la scalabilité ».
+- Troisième.
+- Quatrième au maximum. Si vous en avez dix, vous transcrivez, vous ne prenez
+  plus de notes.
+
+## Ce que j'en retiens
+
+Votre propre lecture — ce avec quoi vous êtes d'accord, ce qui vous fait tiquer,
+ce que ça change pour le type de missions que vous menez. C'est la partie que
+personne d'autre ne peut écrire, et celle que les gens lisent vraiment. Deux ou
+trois phrases suffisent.
+
+## Questions ouvertes
+
+- Un point laissé sans réponse et que vous auriez voulu poser.
+
+## Liens
+
+- [Résumé officiel]({{< meta abstract-url >}})
+- [Supports]({{< meta slides-url >}})
+
+---
+
+<!-- ------------------------------------------------------------------ -->
+<!-- Données structurées schema.org. À garder synchronisées avec l'en-tête -->
+<!-- YAML ci-dessus. Valider sur https://validator.schema.org/ avant       -->
+<!-- publication. Noter "inLanguage": "fr" sur les notes.                  -->
+<!-- ------------------------------------------------------------------ -->
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Event",
+      "@id": "#talk",
+      "name": "TITRE DE L'INTERVENTION, tel qu'imprimé au programme",
+      "startDate": "2026-09-15T09:30:00+02:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
+      "location": {
+        "@type": "Place",
+        "name": "{{< var conf.venue >}}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
+        }
+      },
+      "performer": { "@id": "#speaker" },
+      "about": ["Graphes de connaissances", "Ingénierie ontologique"],
+      "url": ""
+    },
+    {
+      "@type": "Person",
+      "@id": "#speaker",
+      "name": "Prénom Nom",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Organisation"
+      }
+    },
+    {
+      "@type": "Event",
+      "@id": "https://2026-eu.semantics.cc/#conference",
+      "name": "SEMANTiCS 2026",
+      "alternateName": "International Conference on Semantic Systems 2026",
+      "url": "{{< var conf.url >}}",
+      "startDate": "{{< var conf.start >}}",
+      "endDate": "{{< var conf.end >}}",
+      "location": {
+        "@type": "Place",
+        "name": "{{< var conf.venue >}}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
+        }
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#notes",
+      "headline": "Notes — TITRE DE L'INTERVENTION",
+      "inLanguage": "fr",
+      "datePublished": "2026-09-15",
+      "about": { "@id": "#talk" },
+      "mentions": { "@id": "#speaker" },
+      "author": {
+        "@type": "Person",
+        "name": "Bruno Seznec",
+        "url": "https://www.linkedin.com/in/brunoseznec/"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "SEMANTiCS 2026 — Notes",
+        "url": "https://brunosez.github.io/semantics-2026-notes"
+      }
+    }
+  ]
+}
+</script>
+```

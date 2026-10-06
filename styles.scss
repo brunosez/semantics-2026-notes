@@ -1,0 +1,44 @@
+/*-- scss:defaults --*/
+
+// A restrained palette: deep teal reads as "graph/semantic" without being corporate blue.
+$primary:   #0f6e6e !default;
+$link-color: #0f6e6e !default;
+$body-color: #22272b !default;
+
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif !default;
+$font-size-root: 17px !default;
+$headings-font-weight: 600 !default;
+
+/*-- scss:rules --*/
+
+// The one-sentence thesis at the top of each talk page.
+blockquote {
+  border-left: 3px solid $primary;
+  background: rgba(15, 110, 110, 0.05);
+  padding: 0.8rem 1.1rem;
+  font-size: 1.05rem;
+  color: $body-color;
+}
+
+// Metadata strip (speaker / affiliation / session) under the title.
+.talk-meta {
+  font-size: 0.9rem;
+  color: #5b666e;
+  border-bottom: 1px solid #e4e8ea;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.4rem;
+
+  strong { color: $body-color; }
+}
+
+// Language switcher in the navbar: make the active one obvious.
+.navbar .nav-link[href$="fr/index.html"],
+.navbar .nav-link[href$="index.html"] {
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+}
+
+.quarto-title-block .description {
+  font-size: 1.05rem;
+  color: #4a555d;
+}
