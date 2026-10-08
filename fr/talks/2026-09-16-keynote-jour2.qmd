@@ -1,50 +1,45 @@
 ---
-# ===========================================================================
-# EXEMPLE — toutes les valeurs ci-dessous sont des ESPACES RÉSERVÉS.
-# Rien ici n'est une affirmation factuelle sur une intervention réelle.
-# Remplacez tout, ou supprimez ce fichier avant publication.
-# ===========================================================================
-
-title: "ESPACE RÉSERVÉ — titre de la keynote tel qu'imprimé au programme"
-subtitle: "ESPACE RÉSERVÉ — la thèse centrale en une ligne"
+title: "20 lessons from 20 years"
+subtitle: "Beaucoup de choses à faire et à ne pas faire"
 description: >
-  ESPACE RÉSERVÉ — une ou deux phrases précises, affichées sur la page d'index.
+  On ne peut pas automatiser la compréhension : il faut une approche semi-automatique. Les LLM ne couvriront pas tout, du moins pour l'instant !
+
 date: 2026-09-16
 author: "Bruno Seznec"
 
-speaker: "ESPACE RÉSERVÉ — Nom de l'intervenant"
-affiliation: "ESPACE RÉSERVÉ — Organisation"
-session: "Keynote — Jour 1"
+speaker: "Juan Sequeda"
+affiliation: "ServiceNow (via les rachats de Capsenta et de data.world)"
+session: "Keynote — Jour 2"
 isodate: "2026-09-16"
 starttime: "09:30:00+02:00"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/"
 
-categories: [keynote, gouvernance-des-donnees, graphrag]
+categories: [keynote, 20 leçons]
 ---
 
 ::: {.talk-meta}
 **{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
 :::
 
-## En une phrase
-
-> ESPACE RÉSERVÉ — l'unique affirmation portée par l'intervention.
-
 ## Notes
 
-- ESPACE RÉSERVÉ — une affirmation, pas un thème.
-- ESPACE RÉSERVÉ
-- ESPACE RÉSERVÉ
+- Graphe de connaissances = ontologie + données. L'ontologie est un moyen, pas une fin.
+- C'est un travail socio-technique.
+- Utiliser des incitations pour améliorer la qualité des données, par exemple une entreprise qui lie une prime de 20 % à la qualité des données.
+- Voir <https://www.knowledgescientist.org/> (avec Paul Groth), qui précise en quoi le *knowledge scientist* se distingue de l'ontologue.
+- La gouvernance, c'est comme les freins d'une voiture.
+- Votre premier graphe de connaissances, ce sont vos métadonnées.
+- Il a indiqué que le PDF de son livre *Designing and Building Enterprise Knowledge Graphs* (2021) est disponible gratuitement.
+- Voir ISWC 2019 : la méthodologie *pay-as-you-go*.
 
 ## Ce que j'en retiens
 
-ESPACE RÉSERVÉ — deux ou trois phrases de lecture personnelle. Ce avec quoi
-vous êtes d'accord, ce qui vous fait tiquer, ce que ça change pour vos missions.
+- Pour la recherche à venir : c'est un travail socio-technique.
 
 ## Questions ouvertes
 
-- ESPACE RÉSERVÉ
+- Les LLM vont-ils l'emporter ?
 
 ## Liens
 
@@ -67,11 +62,13 @@ vous êtes d'accord, ce qui vous fait tiquer, ce que ça change pour vos mission
       "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
       "location": {
         "@type": "Place",
-        "name": "À COMPLÉTER — nom du lieu",
+        "name": "{{< var conf.venue >}}",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Ghent",
-          "addressCountry": "BE"
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
         }
       },
       "performer": { "@id": "#speaker" },
@@ -91,16 +88,18 @@ vous êtes d'accord, ce qui vous fait tiquer, ce que ça change pour vos mission
       "@id": "https://2026-eu.semantics.cc/#conference",
       "name": "SEMANTiCS 2026",
       "alternateName": "International Conference on Semantic Systems 2026",
-      "url": "https://2026-eu.semantics.cc/",
-      "startDate": "2026-09-FILL",
-      "endDate": "2026-09-FILL",
+      "url": "{{< var conf.url >}}",
+      "startDate": "{{< var conf.start >}}",
+      "endDate": "{{< var conf.end >}}",
       "location": {
         "@type": "Place",
-        "name": "Ghent",
+        "name": "{{< var conf.venue >}}",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Ghent",
-          "addressCountry": "BE"
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
         }
       }
     },
@@ -121,7 +120,7 @@ vous êtes d'accord, ce qui vous fait tiquer, ce que ça change pour vos mission
       "isPartOf": {
         "@type": "Blog",
         "name": "SEMANTiCS 2026 — Notes",
-        "url": "https://bruno16.github.io/semantics-2026-notes"
+        "url": "https://brunosez.github.io/semantics-2026-notes"
       }
     }
   ]

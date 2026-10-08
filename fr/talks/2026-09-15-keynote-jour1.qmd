@@ -1,26 +1,20 @@
 ---
-# ===========================================================================
-# EXEMPLE — toutes les valeurs ci-dessous sont des ESPACES RÉSERVÉS.
-# Rien ici n'est une affirmation factuelle sur une intervention réelle.
-# Remplacez tout, ou supprimez ce fichier avant publication.
-# ===========================================================================
+isodate: "2026-09-15"
+starttime: "09:30:00+02:00"
 
-title: "ESPACE RÉSERVÉ — titre de la keynote tel qu'imprimé au programme"
-subtitle: "ESPACE RÉSERVÉ — la thèse centrale en une ligne"
+title: "More Than Data: Making Knowledge Graphs Work Together for Actionable Insights"
 description: >
-  ESPACE RÉSERVÉ — une ou deux phrases précises, affichées sur la page d'index.
+  Voir le compte rendu : <https://www.dbpedia.org/blog/recap-dbpedia-day-in-ghent-semantics-2026/>
 date: 2026-09-15
 author: "Bruno Seznec"
 
-speaker: "ESPACE RÉSERVÉ — Nom de l'intervenant"
-affiliation: "ESPACE RÉSERVÉ — Organisation"
+speaker: "Prof. Dr. Ricardo Usbeck"
+affiliation: "Université Leuphana de Lüneburg (auparavant Université de Leipzig)"
 session: "Keynote — Jour 1"
-isodate: "2026-09-15"
-starttime: "09:30:00+02:00"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/"
 
-categories: [keynote, gouvernance-des-donnees, graphrag]
+categories: [keynote, DBpedia Day, Wikidata]
 ---
 
 ::: {.talk-meta}
@@ -29,26 +23,30 @@ categories: [keynote, gouvernance-des-donnees, graphrag]
 
 ## En une phrase
 
-> ESPACE RÉSERVÉ — l'unique affirmation portée par l'intervention.
+> More Than Data: Making Knowledge Graphs Work Together for Actionable Insights
 
 ## Notes
 
-- ESPACE RÉSERVÉ — une affirmation, pas un thème.
-- ESPACE RÉSERVÉ
-- ESPACE RÉSERVÉ
+- Annonce de graphes de connaissances dans DBpedia.
+- Voir la bêta : <https://www.dbpedia.org/resources/knowledge-graphs/>
+- 19 ans d'extractions DBpedia !
+- Réseau universitaire allemand : 14 universités dans le programme NFDI4Science, jusqu'en 2028.
+- Perspective de pérennité : LOD2 → LLM ou LinkedPlatform.
+- OpenLLM Germany en février 2027.
+
 
 ## Ce que j'en retiens
 
-ESPACE RÉSERVÉ — deux ou trois phrases de lecture personnelle. Ce avec quoi
-vous êtes d'accord, ce qui vous fait tiquer, ce que ça change pour vos missions.
+- Je ne vois pas encore clairement comment exploiter ces graphes de connaissances (ils peuvent être énormes !).
 
 ## Questions ouvertes
 
-- ESPACE RÉSERVÉ
+- Rédiger un cas d'usage.
 
 ## Liens
 
 - [Programme officiel](https://2026-eu.semantics.cc/)
+- <https://www.dbpedia.org/resources/knowledge-graphs/>
 
 ---
 
