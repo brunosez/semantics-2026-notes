@@ -21,6 +21,10 @@ categories: [keynote, DBpedia Day, Wikidata]
 **{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
 :::
 
+::: {.callout-note appearance="simple"}
+🇬🇧 This page is also available [in English](../../talks/2026-09-15-keynote-day1.qmd).
+:::
+
 ## En une phrase
 
 > More Than Data: Making Knowledge Graphs Work Together for Actionable Insights

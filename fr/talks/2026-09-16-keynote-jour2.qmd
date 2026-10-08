@@ -22,6 +22,10 @@ categories: [keynote, 20 leçons]
 **{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
 :::
 
+::: {.callout-note appearance="simple"}
+🇬🇧 This page is also available [in English](../../talks/2026-09-16-keynote-day2.qmd).
+:::
+
 ## Notes
 
 - Graphe de connaissances = ontologie + données. L'ontologie est un moyen, pas une fin.

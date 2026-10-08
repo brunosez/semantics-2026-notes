@@ -22,6 +22,10 @@ categories: [keynote, 20 lessons]
 **{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
 :::
 
+::: {.callout-note appearance="simple"}
+🇫🇷 Cette page existe aussi [en français](../fr/talks/2026-09-16-keynote-jour2.qmd).
+:::
+
 ## Notes
 
   - KG = ontology + data. The ontology is a means, not a goal.
