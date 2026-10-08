@@ -3,7 +3,6 @@ isodate: "2026-09-15"
 starttime: "09:30:00+02:00"
 
 title: "More Than Data: Making Knowledge Graphs Work Together for Actionable Insights"
-subtitle: "the speaker's central claim in one line"
 description: >
   See the recap: <https://www.dbpedia.org/blog/recap-dbpedia-day-in-ghent-semantics-2026/>
 date: 2026-09-15

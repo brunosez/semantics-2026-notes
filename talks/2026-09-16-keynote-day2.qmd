@@ -22,10 +22,6 @@ categories: [keynote, 20 lessons]
 **{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
 :::
 
-## In one sentence
-
-> PLACEHOLDER — the one claim the talk was making.
-
 ## Notes
 
   - KG = ontology + data. The ontology is a means, not a goal.
