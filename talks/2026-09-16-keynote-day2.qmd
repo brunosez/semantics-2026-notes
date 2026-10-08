@@ -1,27 +1,21 @@
 ---
-# ===========================================================================
-# WORKED EXAMPLE — every value below is a PLACEHOLDER awaiting your real notes.
-# Nothing here is a factual claim about a real talk. Replace it all, or delete
-# this file before publishing. It exists to show the shape of a filled entry.
-# ===========================================================================
-
-title: "PLACEHOLDER — keynote title as printed in the programme"
-subtitle: "PLACEHOLDER — the speaker's central claim in one line"
+title: "20 lessons from 20 years"
+subtitle: "Plenty of dos and don'ts"
 description: >
-  PLACEHOLDER — one or two sentences that say something specific, shown on the
-  index page.
+  You can't automate understanding: it takes a semi-automatic approach. LLMs won't cover everything, at least for now!
+
 date: 2026-09-16
 author: "Bruno Seznec"
 
-speaker: "PLACEHOLDER — Speaker Name"
-affiliation: "PLACEHOLDER — Organisation"
-session: "Keynote — Day 1"
+speaker: "Juan Sequeda"
+affiliation: "ServiceNow (via the acquisitions of Capsenta and data.world)"
+session: "Keynote — Day 2"
 isodate: "2026-09-16"
 starttime: "09:30:00+02:00"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/"
 
-categories: [keynote, data-governance, graphrag]
+categories: [keynote, 20 lessons]
 ---
 
 ::: {.talk-meta}
@@ -34,18 +28,22 @@ categories: [keynote, data-governance, graphrag]
 
 ## Notes
 
-- PLACEHOLDER — a claim, not a topic.
-- PLACEHOLDER
-- PLACEHOLDER
+  - KG = ontology + data. The ontology is a means, not a goal.
+  - This is socio-technical work.
+  - Use incentives to improve data quality, e.g. a company tying a 20% bonus to data quality.
+  - See <https://www.knowledgescientist.org/> (with Paul Groth), which clarifies how the knowledge scientist differs from the ontologist.
+  - Governance is like the brakes on a car.
+  - Your first KG is your metadata.
+  - He mentioned that the PDF of his book *Designing and Building Enterprise Knowledge Graphs* (2021) is available for free.
+  - See ISWC 2019: the pay-as-you-go methodology.
 
 ## What I take away
 
-PLACEHOLDER — two or three sentences of your own reading. Where you agree,
-where you don't, and what it changes for the work you actually do.
+ - For future research: this is socio-technical work.
 
 ## Open questions
 
-- PLACEHOLDER
+- Will LLMs win?
 
 ## Links
 
@@ -68,11 +66,13 @@ where you don't, and what it changes for the work you actually do.
       "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
       "location": {
         "@type": "Place",
-        "name": "FILL-IN — venue name",
+        "name": "{{< var conf.venue >}}",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Ghent",
-          "addressCountry": "BE"
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
         }
       },
       "performer": { "@id": "#speaker" },
@@ -92,16 +92,18 @@ where you don't, and what it changes for the work you actually do.
       "@id": "https://2026-eu.semantics.cc/#conference",
       "name": "SEMANTiCS 2026",
       "alternateName": "International Conference on Semantic Systems 2026",
-      "url": "https://2026-eu.semantics.cc/",
-      "startDate": "2026-09-FILL",
-      "endDate": "2026-09-FILL",
+      "url": "{{< var conf.url >}}",
+      "startDate": "{{< var conf.start >}}",
+      "endDate": "{{< var conf.end >}}",
       "location": {
         "@type": "Place",
-        "name": "Ghent",
+        "name": "{{< var conf.venue >}}",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Ghent",
-          "addressCountry": "BE"
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
         }
       }
     },
@@ -122,7 +124,7 @@ where you don't, and what it changes for the work you actually do.
       "isPartOf": {
         "@type": "Blog",
         "name": "SEMANTiCS 2026 — Notes",
-        "url": "https://bruno16.github.io/semantics-2026-notes"
+        "url": "https://brunosez.github.io/semantics-2026-notes"
       }
     }
   ]

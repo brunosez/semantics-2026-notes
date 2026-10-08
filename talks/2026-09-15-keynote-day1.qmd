@@ -1,22 +1,16 @@
 ---
-# ===========================================================================
-# WORKED EXAMPLE — every value below is a PLACEHOLDER awaiting your real notes.
-# Nothing here is a factual claim about a real talk. Replace it all, or delete
-# this file before publishing. It exists to show the shape of a filled entry.
-# ===========================================================================
-
 isodate: "2026-09-15"
 starttime: "09:30:00+02:00"
 
 title: "More Than Data: Making Knowledge Graphs Work Together for Actionable Insights"
 subtitle: "the speaker's central claim in one line"
 description: >
-  Go to the recap https://www.dbpedia.org/blog/recap-dbpedia-day-in-ghent-semantics-2026/
+  See the recap: <https://www.dbpedia.org/blog/recap-dbpedia-day-in-ghent-semantics-2026/>
 date: 2026-09-15
 author: "Bruno Seznec"
 
 speaker: "Prof. Dr. Ricardo Usbeck"
-affiliation: "ex Leipzig Univ. / now at Lunenburg"
+affiliation: "Leuphana University Lüneburg (formerly Leipzig University)"
 session: "Keynote — Day 1"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/"
@@ -34,17 +28,21 @@ categories: [keynote, DBpedia Day, Wikidata]
 
 ## Notes
 
-- Announcement of Knowledge graph in Dbpedia .
-- See the beta here https://www.dbpedia.org/resources/knowledge-graphs/
+- Announcement of knowledge graphs in DBpedia.
+- See the beta: <https://www.dbpedia.org/resources/knowledge-graphs/>
+- 19 years of DBpedia extractions!
+- German university network: 14 universities in the NFDI4Science programme, running until 2028.
+- Sustainability perspective: LOD2 → LLMs or LinkedPlatform.
+- OpenLLM Germany in February 2027.
 
 
 ## What I take away
 
-- Not clear for me , how to manipulate theses KG (could be huge !!)
+- It's not clear to me how to work with these KGs (they could be huge!).
 
 ## Open questions
 
-Write a Use Case 
+- Write a use case.
 
 ## Links
 
