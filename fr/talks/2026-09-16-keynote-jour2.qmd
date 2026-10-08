@@ -15,7 +15,7 @@ starttime: "09:30:00+02:00"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/"
 
-categories: [keynote, 20 leçons]
+categories: [keynote, 20 lessons from 20 years]
 ---
 
 ::: {.talk-meta}
@@ -76,7 +76,7 @@ categories: [keynote, 20 leçons]
         }
       },
       "performer": { "@id": "#speaker" },
-      "about": ["Gouvernance des données", "GraphRAG"]
+      "about": ["Ontology", "KnowledgeGraph"]
     },
     {
       "@type": "Person",
