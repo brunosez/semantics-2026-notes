@@ -12,7 +12,7 @@ speaker: "Prof. Dr. Ricardo Usbeck"
 affiliation: "Leuphana University Lüneburg (formerly Leipzig University)"
 session: "Keynote — Day 1"
 slides-url: ""
-abstract-url: "https://2026-eu.semantics.cc/"
+abstract-url: "https://2026-eu.semantics.cc/page/speakers?page=1rQnQFgIHiHehJIdEbCRp9f9bkP43a5Qb47IdlrQ6rYQ"
 
 categories: [keynote, DBpedia Day, Wikidata, Wikipedia]
 ---
@@ -49,6 +49,7 @@ categories: [keynote, DBpedia Day, Wikidata, Wikipedia]
 
 ## Links
 
+- [Official abstract]({{< meta abstract-url >}})
 - [Official programme](https://2026-eu.semantics.cc/)
 - https://www.dbpedia.org/resources/knowledge-graphs/
 
@@ -78,6 +79,7 @@ categories: [keynote, DBpedia Day, Wikidata, Wikipedia]
           "addressCountry": "{{< var conf.countrycode >}}"
         }
       },
+      "url": "{{< meta abstract-url >}}",
       "performer": { "@id": "#speaker" },
       "about": [
         { "@type": "Thing", "name": "DBpedia", "sameAs": "https://www.wikidata.org/wiki/Q465" },
