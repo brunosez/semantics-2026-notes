@@ -13,7 +13,7 @@ session: "Keynote — Day 2"
 isodate: "2026-09-16"
 starttime: "09:30:00+02:00"
 slides-url: ""
-abstract-url: "https://2026-eu.semantics.cc/"
+abstract-url: "https://2026-eu.semantics.cc/page/speakers?page=1YRhb-118J0gep711tzmd1E6xoRxW3odijltJ-GPN4rs"
 
 categories: [keynote, 20 lessons from 20 years]
 ---
@@ -47,6 +47,7 @@ categories: [keynote, 20 lessons from 20 years]
 
 ## Links
 
+- [Official abstract]({{< meta abstract-url >}})
 - [Official programme](https://2026-eu.semantics.cc/)
 
 ---
@@ -75,8 +76,12 @@ categories: [keynote, 20 lessons from 20 years]
           "addressCountry": "{{< var conf.countrycode >}}"
         }
       },
+      "url": "{{< meta abstract-url >}}",
       "performer": { "@id": "#speaker" },
-      "about": ["Ontology", "KnowledgeGraph"]
+      "about": [
+        { "@type": "Thing", "name": "Ontology", "sameAs": "https://www.wikidata.org/wiki/Q324254" },
+        { "@type": "Thing", "name": "Knowledge graph", "sameAs": "https://www.wikidata.org/wiki/Q33002955" }
+      ]
     },
     {
       "@type": "Person",

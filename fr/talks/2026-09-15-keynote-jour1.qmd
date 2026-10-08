@@ -79,7 +79,12 @@ categories: [keynote, DBpedia Day, Wikidata, Wikipedia]
         }
       },
       "performer": { "@id": "#speaker" },
-      "about": ["DBpedia", "KnowledgeGraph","Wikidata","Wikipedia"]
+      "about": [
+        { "@type": "Thing", "name": "DBpedia", "sameAs": "https://www.wikidata.org/wiki/Q465" },
+        { "@type": "Thing", "name": "Graphe de connaissances", "sameAs": "https://www.wikidata.org/wiki/Q33002955" },
+        { "@type": "Thing", "name": "Wikidata", "sameAs": "https://www.wikidata.org/wiki/Q2013" },
+        { "@type": "Thing", "name": "Wikipédia", "sameAs": "https://www.wikidata.org/wiki/Q52" }
+      ]
     },
     {
       "@type": "Person",
