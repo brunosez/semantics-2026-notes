@@ -1,0 +1,145 @@
+---
+title: "From GOFAI to NewFAI"
+subtitle: "De la Good Old Fashioned AI à la New Fashioned AI"
+description: >
+  De l'IA symbolique à l'IA probabiliste / stochastique !
+
+date: 2026-09-17
+author: "Bruno Seznec"
+
+speaker: "Prof. Deborah McGuinness"
+affiliation: "Rensselaer Polytechnic Institute (RPI)"
+session: "Keynote — Jour 3"
+isodate: "2026-09-17"
+starttime: "09:30:00+02:00"
+slides-url: ""
+abstract-url: "https://2026-eu.semantics.cc/page/speakers?page=15qR_Tzi1750kcKpZVuBVThw7Lklx4q4KaReDu2rjODw"
+
+categories: [keynote, GOFAI, NewFAI]
+---
+
+::: {.talk-meta}
+**{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
+:::
+
+::: {.callout-note appearance="simple"}
+🇬🇧 This page is also available [in English](../../talks/2026-09-17-keynote-day3.qmd).
+:::
+
+## Notes
+
+- 2000 : Semantics for the Web
+- différents livres, ontology engineering v2 en préparation
+- thèse en 1996 ...
+- GOFAI et NewFAI (Good Old Fashioned)
+- article dans le Journal of Web Semantics (2025)
+- passer d'une approche « data first » à « GenAI first »
+- envisager l'approche « Semantic sprinkles »
+- programme de l'US Army. Collective Judgment Foundation ....
+- architecture de système RAG, gpt-oss-20b ...
+- TMS Server ?
+- <https://aiscientists.grailai.io/>
+- Hackathon RPI, juin 2026, assistant d'enseignement agentique
+- Toastmasters
+
+## Ce que j'en retiens
+
+- Approche « dinosaure ».
+- Assistant d'enseignement agentique innovant
+
+## Questions ouvertes
+
+- Les LLM vont-ils l'emporter ?
+
+## Liens
+
+- [Résumé officiel]({{< meta abstract-url >}})
+- [Programme officiel](https://2026-eu.semantics.cc/)
+
+---
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Event",
+      "@id": "#talk",
+      "name": "{{< meta title >}}",
+      "startDate": "{{< meta isodate >}}T{{< meta starttime >}}",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
+      "location": {
+        "@type": "Place",
+        "name": "{{< var conf.venue >}}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
+        }
+      },
+      "url": "{{< meta abstract-url >}}",
+      "performer": { "@id": "#speaker" },
+      "about": [
+        { "@type": "Thing", "name": "Intelligence artificielle symbolique", "sameAs": "https://www.wikidata.org/wiki/Q5514059" },
+        { "@type": "Thing", "name": "Grand modèle de langage", "sameAs": "https://www.wikidata.org/wiki/Q115305900" },
+        { "@type": "Thing", "name": "Retrieval-augmented generation", "sameAs": "https://www.wikidata.org/wiki/Q121362277" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "#speaker",
+      "name": "{{< meta speaker >}}",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "{{< meta affiliation >}}"
+      }
+    },
+    {
+      "@type": "Event",
+      "@id": "https://2026-eu.semantics.cc/#conference",
+      "name": "SEMANTiCS 2026",
+      "alternateName": "International Conference on Semantic Systems 2026",
+      "url": "{{< var conf.url >}}",
+      "startDate": "{{< var conf.start >}}",
+      "endDate": "{{< var conf.end >}}",
+      "location": {
+        "@type": "Place",
+        "name": "{{< var conf.venue >}}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
+        }
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#notes",
+      "headline": "Notes — {{< meta title >}}",
+      "inLanguage": "fr",
+      "datePublished": "{{< meta isodate >}}",
+      "about": { "@id": "#talk" },
+      "mentions": { "@id": "#speaker" },
+      "author": {
+        "@type": "Person",
+        "name": "Bruno Seznec",
+        "url": "https://www.linkedin.com/in/brunoseznec/"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "SEMANTiCS 2026 — Notes",
+        "url": "https://brunosez.github.io/semantics-2026-notes"
+      }
+    }
+  ]
+}
+</script>
+```
