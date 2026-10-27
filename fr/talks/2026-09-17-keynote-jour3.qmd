@@ -11,11 +11,12 @@ speaker: "Prof. Deborah McGuinness"
 affiliation: "Rensselaer Polytechnic Institute (RPI)"
 session: "Keynote — Jour 3"
 isodate: "2026-09-17"
+published: "2026-10-12"           # date de mise en ligne des notes, alimente datePublished
 starttime: "09:30:00+02:00"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/page/speakers?page=15qR_Tzi1750kcKpZVuBVThw7Lklx4q4KaReDu2rjODw"
 
-categories: [keynote, GOFAI, NewFAI]
+categories: [keynote, ontologie, llm, recherche]
 ---
 
 ::: {.talk-meta}
@@ -124,7 +125,7 @@ categories: [keynote, GOFAI, NewFAI]
       "@id": "#notes",
       "headline": "Notes — {{< meta title >}}",
       "inLanguage": "fr",
-      "datePublished": "{{< meta isodate >}}",
+      "datePublished": "{{< meta published >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {

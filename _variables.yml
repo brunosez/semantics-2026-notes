@@ -13,6 +13,11 @@ conf:
   start: "2026-09-15"
   end: "2026-09-17"
   id: "https://2026-eu.semantics.cc/#conference"
+  # Proceedings: IOS Press, Studies on the Semantic Web vol. 63, CC BY 4.0
+  # (licence and DOI read from the copyright page of Procedings.pdf).
+  proceedings-title: "Bridging the Gap Between Curated and Induced Semantics"
+  proceedings-series: "Studies on the Semantic Web, vol. 63 (IOS Press)"
+  proceedings-doi: "10.3233/SSW63"
 
 author:
   name: "Bruno Seznec"

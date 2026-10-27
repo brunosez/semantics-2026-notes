@@ -14,6 +14,8 @@ sémantique.
 
 - LinkedIn : [brunoseznec](https://www.linkedin.com/in/brunoseznec/)
 - Conférence : [SEMANTiCS 2026]({{< var conf.url >}}), Gand, Belgique
+- Actes : *{{< var conf.proceedings-title >}}*, {{< var conf.proceedings-series >}},
+  en accès ouvert sous licence CC BY 4.0 — DOI [{{< var conf.proceedings-doi >}}](https://doi.org/{{< var conf.proceedings-doi >}})
 
 ## Réutilisation
 

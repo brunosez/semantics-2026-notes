@@ -45,7 +45,9 @@ connaissances sans en publier serait assez mal venu.
 > **Avertissement.** Ce sont mes notes, pas une transcription. Toute
 > déformation du propos d'un intervenant m'est imputable. Quand c'était
 > possible, j'ai mis en lien le résumé officiel et les supports — c'est là que
-> se trouve la version faisant foi.
+> se trouve la version faisant foi. Les articles évalués par les pairs sont
+> dans les actes en accès ouvert,
+> DOI [{{< var conf.proceedings-doi >}}](https://doi.org/{{< var conf.proceedings-doi >}}).
 
 ## Interventions
 

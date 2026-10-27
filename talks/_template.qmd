@@ -19,6 +19,7 @@ speaker: "Firstname Lastname"
 affiliation: "Organisation"
 session: "Keynote — Day 1"      # or "Research track", "Industry track", …
 isodate: "2026-09-15"            # ISO date, feeds the JSON-LD
+published: "2026-10-27"       # date the notes go online (NOT the talk date), feeds datePublished
 starttime: "09:30:00+02:00"   # local start time, feeds the JSON-LD
 slides-url: ""                  # leave empty if none
 abstract-url: ""                # link to the official abstract
@@ -128,7 +129,7 @@ people actually read. Two or three sentences is plenty.
       "@id": "#notes",
       "headline": "Notes — {{< meta title >}}",
       "inLanguage": "en",
-      "datePublished": "{{< meta isodate >}}",
+      "datePublished": "{{< meta published >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {

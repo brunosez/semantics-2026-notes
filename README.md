@@ -54,17 +54,34 @@ Fill the YAML header, write the four sections, update the JSON-LD block to
 match. Files beginning with `_` are never rendered, so the templates stay out
 of the published site.
 
+Two dates live in the header, and they are not the same thing:
+
+- `isodate` (+ `starttime`) — when the **talk** took place → `Event.startDate`
+- `published` — when **your notes** went online → `BlogPosting.datePublished`
+
+Set `published` to the day you push the page, not the day of the talk.
+
 Keep the EN and FR filenames parallel (same date, matching slug). Nothing
 enforces it — it's what keeps the two trees navigable by hand.
 
-Delete the two `*keynote-day1*` / `*keynote-jour1*` example files once you have
-real entries; every value in them is a placeholder.
+Current pages (all three keynotes, EN + FR):
+
+| Day | Speaker            | EN                                    | FR                                     | Published  |
+| --- | ------------------ | ------------------------------------- | -------------------------------------- | ---------- |
+| 1   | Ricardo Usbeck     | `talks/2026-09-15-keynote-day1.qmd`   | `fr/talks/2026-09-15-keynote-jour1.qmd` | 2026-10-08 |
+| 2   | Juan Sequeda       | `talks/2026-09-16-keynote-day2.qmd`   | `fr/talks/2026-09-16-keynote-jour2.qmd` | 2026-10-08 |
+| 3   | Deborah McGuinness | `talks/2026-09-17-keynote-day3.qmd`   | `fr/talks/2026-09-17-keynote-jour3.qmd` | 2026-10-12 |
 
 ## 4. Category vocabulary
 
 Pick from this list rather than inventing a new tag each time — otherwise the
 category filter on the index page becomes useless. Add to the list
-deliberately.
+deliberately. Specific subjects (DBpedia, Wikidata, symbolic AI…) go in the
+JSON-LD `about` array with a Wikidata `sameAs`, not in `categories`.
+
+Every page carries `keynote`/`industry`/`research` style tags for the *kind*
+of talk, plus one or more topic tags. Use the EN tag in `talks/` and its FR
+twin in `fr/talks/`, so the two indexes filter the same way.
 
 | English (`talks/`)      | French (`fr/talks/`)            |
 | ----------------------- | ------------------------------- |
@@ -89,7 +106,7 @@ Each talk page carries a `<script type="application/ld+json">` block with a
 | `#talk`       | `Event`       | the talk, linked to the conference via `superEvent`         |
 | `#speaker`    | `Person`      | the speaker, with `affiliation`                             |
 | conference    | `Event`       | SEMANTiCS 2026, shared `@id` across all pages               |
-| `#notes`      | `BlogPosting` | your notes, `about` the talk, `author` you                  |
+| `#notes`      | `BlogPosting` | your notes, `about` the talk, `author` you, `datePublished` = `published` |
 
 The conference node uses the same absolute `@id` on every page, so a crawler
 that merges the pages gets one conference node with many `superEvent` children
@@ -133,16 +150,35 @@ trusting the scaffold:
   so check it**, in particular the exact spelling of the venue (the Dutch name
   is *Muziekcentrum De Bijloke*) and whether your day 1 was the 15th.
   Everything derives from this one file, so a correction here fixes every page.
-- **GitHub Action versions.** `checkout@v4`, `configure-pages@v5`,
-  `upload-pages-artifact@v3`, `deploy-pages@v4`, `quarto-actions/setup@v2` were
-  current as far as I know, but these move. If the workflow fails on a
-  deprecated action, bump the major version.
+- **GitHub Action versions.** The workflow currently pins `checkout@v7`,
+  `configure-pages@v6`, `upload-pages-artifact@v5`, `deploy-pages@v5` and
+  `quarto-actions/setup@v2`, on `ubuntu-24.04` runners. These move; if a run
+  fails on a missing or deprecated action, check the action's releases page
+  and adjust the major version. Check the **Actions** tab after each push —
+  a failed deploy leaves the previous version of the site online silently.
 - **Quarto listing options.** The index pages use `type: table` deliberately.
   I tested this on Quarto 1.6.39: the `default` listing layout **silently
   ignores** custom fields, so `speaker` never appears; `table` renders it as a
   sortable column. If you switch back to `default` for the nicer card layout,
   expect to lose the speaker column and fold that information into the
   `description` instead.
+
+## Proceedings
+
+The conference proceedings are in the repo as `Procedings.pdf` (327 pages):
+
+> *Bridging the Gap Between Curated and Induced Semantics — Proceedings of the
+> 22nd International Conference on Semantic Systems*, Studies on the Semantic
+> Web vol. 63, IOS Press, 2026. DOI
+> [10.3233/SSW63](https://doi.org/10.3233/SSW63). ISBN 978-1-64368-686-8
+> (online).
+
+Its copyright page states © 2026 The Authors, open access under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), so keeping a copy
+here is allowed with attribution. It is **not** linked from any page, so
+Quarto does not copy it into `_site/`: the published site points readers to
+the DOI instead. The DOI and title live in `_variables.yml`
+(`conf.proceedings-*`).
 
 ## Licence
 

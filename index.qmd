@@ -41,7 +41,9 @@ would be a poor look.
 
 > **Caveat.** These are my notes, not a transcript. Any misreading of a
 > speaker's argument is mine. Where I could, I've linked the official abstract
-> and the slides — go there for the authoritative version.
+> and the slides — go there for the authoritative version. The peer-reviewed
+> papers are in the open-access proceedings,
+> DOI [{{< var conf.proceedings-doi >}}](https://doi.org/{{< var conf.proceedings-doi >}}).
 
 ## Talks
 

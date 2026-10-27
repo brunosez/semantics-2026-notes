@@ -23,6 +23,7 @@ speaker: "Prénom Nom"
 affiliation: "Organisation"
 session: "Keynote — Jour 1"     # ou « Track recherche », « Track industrie », …
 isodate: "2026-09-15"            # ISO date, feeds the JSON-LD
+published: "2026-10-27"       # date de mise en ligne des notes (PAS la date de l'exposé), alimente datePublished
 starttime: "09:30:00+02:00"   # local start time, feeds the JSON-LD
 slides-url: ""                  # laisser vide s'il n'y en a pas
 abstract-url: ""                # lien vers le résumé officiel
@@ -135,7 +136,7 @@ trois phrases suffisent.
       "@id": "#notes",
       "headline": "Notes — {{< meta title >}}",
       "inLanguage": "fr",
-      "datePublished": "{{< meta isodate >}}",
+      "datePublished": "{{< meta published >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {

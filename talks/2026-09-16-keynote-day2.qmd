@@ -11,11 +11,12 @@ speaker: "Juan Sequeda"
 affiliation: "ServiceNow (via the acquisitions of Capsenta and data.world)"
 session: "Keynote — Day 2"
 isodate: "2026-09-16"
+published: "2026-10-08"           # date these notes went online, feeds datePublished
 starttime: "09:30:00+02:00"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/page/speakers?page=1YRhb-118J0gep711tzmd1E6xoRxW3odijltJ-GPN4rs"
 
-categories: [keynote, 20 lessons from 20 years]
+categories: [keynote, knowledge-graphs, ontology, data-governance, data-quality]
 ---
 
 ::: {.talk-meta}
@@ -117,7 +118,7 @@ categories: [keynote, 20 lessons from 20 years]
       "@id": "#notes",
       "headline": "Notes — {{< meta title >}}",
       "inLanguage": "en",
-      "datePublished": "{{< meta isodate >}}",
+      "datePublished": "{{< meta published >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {

@@ -1,5 +1,6 @@
 ---
 isodate: "2026-09-15"
+published: "2026-10-08"           # date de mise en ligne des notes, alimente datePublished
 starttime: "09:15:00+02:00"
 
 title: "More Than Data: Making Knowledge Graphs Work Together for Actionable Insights"
@@ -14,7 +15,7 @@ session: "Keynote — Jour 1"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/page/speakers?page=1rQnQFgIHiHehJIdEbCRp9f9bkP43a5Qb47IdlrQ6rYQ"
 
-categories: [keynote, DBpedia Day, Wikidata, Wikipedia]
+categories: [keynote, graphes-de-connaissances, recherche]
 ---
 
 ::: {.talk-meta}
@@ -122,7 +123,7 @@ categories: [keynote, DBpedia Day, Wikidata, Wikipedia]
       "@id": "#notes",
       "headline": "Notes — {{< meta title >}}",
       "inLanguage": "fr",
-      "datePublished": "{{< meta isodate >}}",
+      "datePublished": "{{< meta published >}}",
       "about": { "@id": "#talk" },
       "mentions": { "@id": "#speaker" },
       "author": {

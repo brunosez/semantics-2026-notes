@@ -13,6 +13,8 @@ train teams on the semantic web stack.
 
 - LinkedIn: [brunoseznec](https://www.linkedin.com/in/brunoseznec/)
 - Conference: [SEMANTiCS 2026]({{< var conf.url >}}), {{< var conf.city >}}, {{< var conf.country >}}
+- Proceedings: *{{< var conf.proceedings-title >}}*, {{< var conf.proceedings-series >}},
+  open access under CC BY 4.0 — DOI [{{< var conf.proceedings-doi >}}](https://doi.org/{{< var conf.proceedings-doi >}})
 
 ## How to reuse this
 
