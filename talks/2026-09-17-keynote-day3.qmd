@@ -28,7 +28,7 @@ categories: [keynote, GOFAI, NewFAI]
 
 ## Notes
 - 2000: Semantics for the Web
-- diff books, ontology engineering v2 is coming
+- writer of several books in web semantic are, ontology engineering v2 is coming
 - PhD thesis in 1996 ...
 - GOFAI and NewFAI (Good Old Fashioned)
 - paper in Journal of Web Semantics (2025)
@@ -36,14 +36,14 @@ categories: [keynote, GOFAI, NewFAI]
 - consider Semantic sprinkles approach
 - US Army Program. Collective Judgment Foundation ....
 - RAG system architecture, gpt-oss-20b ...
-- TMS Server ?
+- TMS Server 
 - <https://aiscientists.grailai.io/>
 - RPI Hackathon, June 2026, Agentic Teaching Assistant
 - Toastmasters
 
 ## What I take away
 
-- Dinosaur approach.
+- Dinosaurus approach :-)
 - Innovative agentic teaching assistant
 
 ## Open questions
