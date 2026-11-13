@@ -64,11 +64,12 @@ Set `published` to the day you push the page, not the day of the talk.
 Keep the EN and FR filenames parallel (same date, matching slug). Nothing
 enforces it — it's what keeps the two trees navigable by hand.
 
-Current pages (all three keynotes, EN + FR):
+Current pages (three keynotes and the DBpedia opening, EN + FR):
 
 | Day | Speaker            | EN                                    | FR                                     | Published  |
 | --- | ------------------ | ------------------------------------- | -------------------------------------- | ---------- |
 | 1   | Ricardo Usbeck     | `talks/2026-09-15-keynote-day1.qmd`   | `fr/talks/2026-09-15-keynote-jour1.qmd` | 2026-10-08 |
+| 1   | Sebastian Hellmann | `talks/2026-09-15-dbpedia-KG.qmd`     | `fr/talks/2026-09-15-dbpedia-KG.qmd`   | 2026-10-08 |
 | 2   | Juan Sequeda       | `talks/2026-09-16-keynote-day2.qmd`   | `fr/talks/2026-09-16-keynote-jour2.qmd` | 2026-10-08 |
 | 3   | Deborah McGuinness | `talks/2026-09-17-keynote-day3.qmd`   | `fr/talks/2026-09-17-keynote-jour3.qmd` | 2026-10-12 |
 

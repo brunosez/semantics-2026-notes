@@ -1,0 +1,149 @@
+---
+isodate: "2026-09-15"
+published: "2026-10-08"           # date these notes went online, feeds datePublished
+starttime: "09:15:00+02:00"
+
+title: "DBpedia Day: launching the KG initiative"
+description: >
+  See the recap: <https://tinyurl.com/dbpedia-2026-semantics-opening>
+  or
+  <https://docs.google.com/presentation/d/1OAUSvMclccv6uo9PHiu92f-x1Bs12hew6DzzQhsUOMA/edit?slide=id.g3faa58189d6_1_0#slide=id.g3faa58189d6_1_0>
+date: 2026-09-15
+author: "Bruno Seznec"
+
+speaker: "Prof. Dr. Sebastian Hellmann"
+affiliation: "InfAI/DBpedia Association"
+session: "DBpedia opening"
+slides-url: ""
+abstract-url: "https://2026-eu.semantics.cc/page/speakers?page=1rQnQFgIHiHehJIdEbCRp9f9bkP43a5Qb47IdlrQ6rYQ"
+
+categories: [knowledge-graphs, research]
+---
+
+::: {.talk-meta}
+**{{< meta speaker >}}** · {{< meta affiliation >}} · {{< meta session >}}
+:::
+
+::: {.callout-note appearance="simple"}
+🇫🇷 Cette page existe aussi [en français](../fr/talks/2026-09-15-dbpedia-KG.qmd).
+:::
+
+## In one sentence
+
+> Strategic Problems of the KG Ecosystem:
+>
+> 1. Trustworthy Knowledge for AI
+> 2. Knowledge Graph Lifecycle and Quality Control
+> 3. Sustainable Knowledge Infrastructure: End of life
+
+## Notes
+
+- See slides.
+- DBpedia is no longer just one Knowledge Graph extracted from Wikipedia.
+- DBpedia account: (coming soon) DBpedians Graph, connecting FOAF/WebID and Keycloak.
+  <https://dbpedians.dbpedia.org/id/kurzum#me>
+- <http://kg-catalog.dbpedia.org> is open now (November 2026).
+
+
+## What I take away
+
+- To be experimented with.
+
+## Open questions
+
+- Write a use case.
+
+## Links
+
+- [Official abstract]({{< meta abstract-url >}})
+- [Official programme](https://2026-eu.semantics.cc/)
+- <https://www.dbpedia.org/resources/knowledge-graphs/>
+
+---
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Event",
+      "@id": "#talk",
+      "name": "{{< meta title >}}",
+      "startDate": "{{< meta isodate >}}T{{< meta starttime >}}",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "superEvent": { "@id": "https://2026-eu.semantics.cc/#conference" },
+      "location": {
+        "@type": "Place",
+        "name": "{{< var conf.venue >}}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
+        }
+      },
+      "url": "{{< meta abstract-url >}}",
+      "performer": { "@id": "#speaker" },
+      "about": [
+        { "@type": "Thing", "name": "DBpedia", "sameAs": "https://www.wikidata.org/wiki/Q465" },
+        { "@type": "Thing", "name": "Knowledge graph", "sameAs": "https://www.wikidata.org/wiki/Q33002955" },
+        { "@type": "Thing", "name": "Wikidata", "sameAs": "https://www.wikidata.org/wiki/Q2013" },
+        { "@type": "Thing", "name": "Wikipedia", "sameAs": "https://www.wikidata.org/wiki/Q52" }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "#speaker",
+      "name": "{{< meta speaker >}}",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "{{< meta affiliation >}}"
+      }
+    },
+    {
+      "@type": "Event",
+      "@id": "https://2026-eu.semantics.cc/#conference",
+      "name": "SEMANTiCS 2026",
+      "alternateName": "International Conference on Semantic Systems 2026",
+      "url": "{{< var conf.url >}}",
+      "startDate": "{{< var conf.start >}}",
+      "endDate": "{{< var conf.end >}}",
+      "location": {
+        "@type": "Place",
+        "name": "{{< var conf.venue >}}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{< var conf.street >}}",
+          "postalCode": "{{< var conf.postcode >}}",
+          "addressLocality": "{{< var conf.city >}}",
+          "addressCountry": "{{< var conf.countrycode >}}"
+        }
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "#notes",
+      "headline": "Notes — {{< meta title >}}",
+      "inLanguage": "en",
+      "datePublished": "{{< meta published >}}",
+      "about": { "@id": "#talk" },
+      "mentions": { "@id": "#speaker" },
+      "author": {
+        "@type": "Person",
+        "name": "Bruno Seznec",
+        "url": "https://www.linkedin.com/in/brunoseznec/"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isPartOf": {
+        "@type": "Blog",
+        "name": "SEMANTiCS 2026 — Notes",
+        "url": "https://brunosez.github.io/semantics-2026-notes"
+      }
+    }
+  ]
+}
+</script>
+```
