@@ -12,7 +12,7 @@ date: 2026-09-15
 author: "Bruno Seznec"
 
 speaker: "Prof. Dr. Sebastian Hellmann"
-affiliation: "InfAI / DBpedia Association"
+affiliation: "InfAI/DBpedia Association"
 session: "Ouverture DBpedia"
 slides-url: ""
 abstract-url: "https://2026-eu.semantics.cc/page/speakers?page=1rQnQFgIHiHehJIdEbCRp9f9bkP43a5Qb47IdlrQ6rYQ"
