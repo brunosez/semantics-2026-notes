@@ -42,8 +42,10 @@ would be a poor look.
 > **Caveat.** These are my notes, not a transcript. Any misreading of a
 > speaker's argument is mine. Where I could, I've linked the official abstract
 > and the slides — go there for the authoritative version. The peer-reviewed
-> papers are in the open-access proceedings,
-> DOI [{{< var conf.proceedings-doi >}}](https://doi.org/{{< var conf.proceedings-doi >}}).
+> papers are in the open-access proceedings:
+>
+> - main conference: DOI [{{< var conf.proceedings-doi >}}](https://doi.org/{{< var conf.proceedings-doi >}})
+> - workshops (UKG, SAGE, Sem4Tra, SKGi, SymGenAI4Sci): [{{< var conf.workshops-volume >}}]({{< var conf.workshops-url >}})
 
 ## Talks
 

@@ -18,6 +18,10 @@ conf:
   proceedings-title: "Bridging the Gap Between Curated and Induced Semantics"
   proceedings-series: "Studies on the Semantic Web, vol. 63 (IOS Press)"
   proceedings-doi: "10.3233/SSW63"
+  # Workshop proceedings: CEUR-WS Vol-4292 (UKG, SAGE, Sem4Tra, SKGi,
+  # SymGenAI4Sci), published 2026-10-12, CC BY 4.0.
+  workshops-url: "https://ceur-ws.org/Vol-4292/"
+  workshops-volume: "CEUR-WS Vol-4292"
 
 author:
   name: "Bruno Seznec"
