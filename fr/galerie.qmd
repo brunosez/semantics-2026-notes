@@ -32,6 +32,8 @@ Le contenu des diapositives reste la propriété des intervenants et de leurs or
 
 ![Grande salle, avant la première session](../assets/photos/city/20260916_085105707.jpg){group="gand" fig-alt="Sièges gris vides sous une charpente en bois, fenêtres gothiques et statue au mur du fond"}
 
+![La grande salle vue de l'extérieur : l'ancienne église](../assets/photos/city/20260916_105514523.jpg){group="gand" fig-alt="Façade gothique en pierre grise de l'ancienne église qui abrite la grande salle, échafaudage à droite"}
+
 :::
 
 ### L'hôtel de ville
@@ -69,8 +71,6 @@ Le contenu des diapositives reste la propriété des intervenants et de leurs or
 ![Pont Saint-Michel : les trois tours](../assets/photos/city/20260915_180941758.jpg){group="gand" fig-alt="Lampadaire surmonté d'un archange doré, l'église Saint-Nicolas et le beffroi au loin"}
 
 ![Vitrail au crépuscule](../assets/photos/city/20260915_181650095.jpg){group="gand" fig-alt="Église néogothique en brique avec un grand vitrail éclairé et une guirlande lumineuse"}
-
-![Façade gothique sous échafaudage](../assets/photos/city/20260916_105514523.jpg){group="gand" fig-alt="Façade d'église gothique en pierre grise aux fenêtres à remplages, échafaudage à droite"}
 
 ![Une façade ornée](../assets/photos/city/20260916_163330921.jpg){group="gand" fig-alt="Vue en contre-plongée d'une façade en pierre richement sculptée avec une grande entrée en arc"}
 

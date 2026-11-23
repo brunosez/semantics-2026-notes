@@ -31,6 +31,8 @@ Slide content remains the property of the speakers and their organisations.
 
 ![Main hall, before the first session](assets/photos/city/20260916_085105707.jpg){group="ghent" fig-alt="Empty grey seats under a timber vault, Gothic windows and a statue on the back wall"}
 
+![Main hall from outside: the former church](assets/photos/city/20260916_105514523.jpg){group="ghent" fig-alt="Grey stone Gothic facade of the former church that houses the main hall, scaffolding on the right"}
+
 :::
 
 ### City Hall
@@ -68,8 +70,6 @@ Slide content remains the property of the speakers and their organisations.
 ![St Michael's Bridge: the three towers](assets/photos/city/20260915_180941758.jpg){group="ghent" fig-alt="Lamp post topped by a golden archangel, St Nicholas' Church and the Belfry in the distance"}
 
 ![Stained glass at dusk](assets/photos/city/20260915_181650095.jpg){group="ghent" fig-alt="Neo-Gothic brick church with a large lit stained-glass window and string lights"}
-
-![Gothic facade under scaffolding](assets/photos/city/20260916_105514523.jpg){group="ghent" fig-alt="Grey stone Gothic church facade with tracery windows, scaffolding on the right"}
 
 ![An ornate facade](assets/photos/city/20260916_163330921.jpg){group="ghent" fig-alt="Upward view of a richly carved stone facade with a large arched entrance"}
 
