@@ -5,3 +5,8 @@
 .DS_Store
 
 **/*.quarto_ipynb
+
+# Original photos (full size, with GPS metadata): never publish
+photos-raw/
+# Local Claude Code settings
+.claude/

@@ -1,0 +1,137 @@
+---
+title: "Photo gallery"
+description: "Ghent and SEMANTiCS 2026, 15–17 September 2026."
+lightbox: true
+toc: true
+---
+
+::: {.callout-note appearance="simple"}
+🇫🇷 Cette page existe aussi [en français](fr/galerie.qmd).
+:::
+
+Click a photo to enlarge it; the arrows browse the current section. Slide
+photos carry a transcription in the enlarged view.
+
+Photos by Bruno Seznec, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Slide content remains the property of the speakers and their organisations.
+
+## Ghent
+
+### The Bijloke site
+
+::: {.gallery}
+
+![Bijloke site, early morning](assets/photos/city/20260915_061813508.jpg){group="ghent" fig-alt="Neo-Gothic red-brick buildings around a cobbled square, BIJLOKESITE sign, blue sky"}
+
+![Bijloke site, the neo-Gothic wing](assets/photos/city/20260915_081348346.jpg){group="ghent" fig-alt="Red-brick neo-Gothic building with a slender spire behind a lawn"}
+
+![Bijloke site, the lawn](assets/photos/city/20260915_081354028.jpg){group="ghent" fig-alt="Lawn with picnic tables in front of an old brick building with red chimneys"}
+
+![Main hall: the timber vault](assets/photos/city/20260916_064320160.jpg){group="ghent" fig-alt="Curved wooden roof trusses over white-washed walls and a Gothic window"}
+
+![Main hall, before the first session](assets/photos/city/20260916_085105707.jpg){group="ghent" fig-alt="Empty grey seats under a timber vault, Gothic windows and a statue on the back wall"}
+
+:::
+
+### City Hall
+
+::: {.gallery}
+
+![City Hall, Renaissance wing (Poeljemarkt)](assets/photos/city/20260915_160424224.jpg){group="ghent" fig-alt="Renaissance facade with black columns and gilded capitals, a few pedestrians"}
+
+![Welcome reception at City Hall](assets/photos/city/20260915_160729849.jpg){group="ghent" fig-alt="Attendees gathered in a stone Gothic hall with painted coats of arms; a speaker at a lectern flanked by flags" description="Painted on the walls: the arms and names of the Burgundian and Habsburg rulers, e.g. Hertoghe Karel van Bourgognen +1477, Vrau Isabella van Bourbon +1465, Keyser Maximiliaen van Oostenryck +1519."}
+
+![The Gothic hall and its great chimney](assets/photos/city/20260915_160735591.jpg){group="ghent" fig-alt="Monumental stone chimney between painted coats of arms, attendees below" description="Painted on the walls: the arms and names of the Burgundian and Habsburg rulers, e.g. Hertoghe Karel van Bourgognen +1477, Vrau Isabella van Bourbon +1465, Keyser Maximiliaen van Oostenryck +1519."}
+
+![Lectern and flags](assets/photos/city/20260915_163506131.jpg){group="ghent" fig-alt="Wooden benches, a lectern and the flags of Ghent, Flanders, Belgium and the EU under painted arms"}
+
+![The hall's checkered floor](assets/photos/city/20260915_163509548.jpg){group="ghent" fig-alt="Wooden tribune on a black-and-white checkered floor, coats of arms on the wall"}
+
+![Reception by the fireplace](assets/photos/city/20260915_163513417.jpg){group="ghent" fig-alt="Attendees chatting around high tables in front of the stone chimney"}
+
+![A council room](assets/photos/city/20260915_164728014.jpg){group="ghent" fig-alt="Long wooden table with leather chairs, chandelier, stained-glass windows and a large portrait"}
+
+![Paintings and a manuscript on display](assets/photos/city/20260915_164759794.jpg){group="ghent" fig-alt="Room with large painted canvases, wood panelling and a book on a red cushion in a glass case"}
+
+:::
+
+### The old town at dusk
+
+::: {.gallery}
+
+![The old post office, Korenmarkt](assets/photos/city/20260915_180726540.jpg){group="ghent" fig-alt="Neo-Gothic post office building with clock tower at dusk"}
+
+![Bikes on the Korenmarkt](assets/photos/city/20260915_180730359.jpg){group="ghent" fig-alt="Rows of parked bikes on a cobbled square, the post office clock tower on the left"}
+
+![The Leie from St Michael's Bridge](assets/photos/city/20260915_180915140.jpg){group="ghent" fig-alt="Canal lined with historic facades and terraces under a cloudy evening sky"}
+
+![St Michael's Bridge: the three towers](assets/photos/city/20260915_180941758.jpg){group="ghent" fig-alt="Lamp post topped by a golden archangel, St Nicholas' Church and the Belfry in the distance"}
+
+![Stained glass at dusk](assets/photos/city/20260915_181650095.jpg){group="ghent" fig-alt="Neo-Gothic brick church with a large lit stained-glass window and string lights"}
+
+![Gothic facade under scaffolding](assets/photos/city/20260916_105514523.jpg){group="ghent" fig-alt="Grey stone Gothic church facade with tracery windows, scaffolding on the right"}
+
+![An ornate facade](assets/photos/city/20260916_163330921.jpg){group="ghent" fig-alt="Upward view of a richly carved stone facade with a large arched entrance"}
+
+![Le Bateau, moored on the canal](assets/photos/city/20260916_163351879.jpg){group="ghent" fig-alt="Black-hulled barge named Le Bateau with a canopied deck, trees behind"}
+
+![Korenmarkt at blue hour](assets/photos/city/20260916_181644366.jpg){group="ghent" fig-alt="Lit terraces and stepped-gable houses, the post office clock tower against a deep blue sky"}
+
+![Gravensteen, the Castle of the Counts](assets/photos/city/20260916_181814463.jpg){group="ghent" fig-alt="Floodlit medieval castle walls and keep, bikes in the foreground"}
+
+![Gravensteen gatehouse](assets/photos/city/20260916_181825721.jpg){group="ghent" fig-alt="Floodlit castle gatehouse with a green wooden door, a few passers-by"}
+
+![Sint-Veerleplein in the evening](assets/photos/city/20260916_181828152.jpg){group="ghent" fig-alt="Square with lit guild houses, restaurant terraces and parked bikes"}
+
+![Footbridge and statue arcade](assets/photos/city/20260916_182234124.jpg){group="ghent" fig-alt="Ornate iron footbridge over the water, brick arcade with stone statues"}
+
+![Stepped gable between two round towers](assets/photos/city/20260916_182429660.jpg){group="ghent" fig-alt="Floodlit pale-stone building with a stepped gable flanked by two conical-roofed towers"}
+
+![Evening hockey under floodlights](assets/photos/city/20260916_185049214.jpg){group="ghent" fig-alt="Blue field-hockey pitch under floodlights, players training"}
+
+![Along the water at night](assets/photos/city/20260916_185758465.jpg){group="ghent" fig-alt="Waterside path at night, city lights reflected in the water"}
+
+:::
+
+## Conference
+
+### Talks and slides
+
+::: {.gallery}
+
+![V&V taxonomy for KG construction (Bosch) — speaker to add](assets/photos/conf/20260915_135745176.jpg){group="conference" fig-alt="Speaker with a microphone beside a screen showing a Bosch slide titled Verification & Validation Taxonomy for KG Construction" description="Slide: Verification & Validation Taxonomy for KG Construction — Conclusion & Outlook. The V&V taxonomy structures the field for industrial KG construction, to support neuro-symbolic / LLM-supported KG construction in industrial, safety-critical settings. Five dimensions: Evaluation Artefact, Reference Basis, Evaluation Perspective, Evaluation Executive, Temporal Execution. Reporting gaps observed in a manufacturing case study of 50 studies: syntax checks, dataset dependence, neural methods, evaluation perspective, reproducibility, structured reporting of V&V. Future work: extend to multimodal data (audio, image, video); validate generalizability to other safety-critical domains such as healthcare and autonomous driving. Slide © Bosch."}
+
+![Q&A — a talk on Amsterdam Schiphol airport (title and speakers to add)](assets/photos/conf/20260916_103619482.jpg){group="conference" fig-alt="Two speakers on either side of a screen showing Questions? Let's discuss. over a photo of Schiphol airport"}
+
+![Elody, an open-source data platform (Inuits)](assets/photos/conf/20260917_104605854.jpg){group="conference" fig-alt="Close-up of a browser showing github.com/inuits/elody-common and a tab named DAMS" description="Elody is a modular, open-source data platform developed by the Inuits community. It powers the Antwerp DAMS, which brings together the digital collections of the city's museums, libraries and heritage institutions, with linked data and IIIF. Code: github.com/inuits/elody-common"}
+
+![How good are LLMs at Ontology Engineering? — closing slide](assets/photos/conf/20260917_134330889.jpg){group="conference" fig-alt="Slide asking whether an automatically generated ontology is really an ontology, listing competency questions and provenance" description="Slide (right edge cut off in the photo): Ultimately, is an ontology really an ontology if it has been automatically generated? (Gruber 92): an ontology is a formal specification of a shared conceptualization. AI improvements grow at a rapid pace; scores will likely improve in the months to come (with limitations like contamination). Key assets to ensure the outcomes from LLMs are useful: competency questions to drive ontology development; provenance — explain results in the benchmarks, not just provide numbers; explain why a term is added to an ontology, or why a CQ is proposed."}
+
+:::
+
+### Venues and evenings
+
+::: {.gallery}
+
+![Main hall before the Day 2 opening](assets/photos/conf/20260916_064330331.jpg){group="conference" fig-alt="Concert hall with grey seats, an accordionist on stage and a slide titled Group Photo on the big screen" description="On screen: Group Photo — To be completed upon weather check."}
+
+![Evening reception in a historic theatre](assets/photos/conf/20260916_164850512.jpg){group="conference" fig-alt="Attendees mingling under the red and gold balconies of a theatre, coloured spotlights"}
+
+![The theatre stage, set for the DJ](assets/photos/conf/20260916_164855918.jpg){group="conference" fig-alt="Theatre stage with a DJ booth in red and white spotlights and haze"}
+
+:::
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Photo gallery — SEMANTiCS 2026, Ghent",
+  "inLanguage": "en",
+  "author": {"@type": "Person", "name": "Bruno Seznec", "url": "https://www.linkedin.com/in/brunoseznec/"},
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "contentLocation": {"@type": "Place", "name": "Ghent", "sameAs": "https://www.wikidata.org/wiki/Q1296"},
+  "about": {"@id": "https://2026-eu.semantics.cc/#conference"}
+}
+</script>
+```

@@ -1,0 +1,138 @@
+---
+title: "Galerie photo"
+description: "Gand et SEMANTiCS 2026, 15–17 septembre 2026."
+lightbox: true
+toc: true
+---
+
+::: {.callout-note appearance="simple"}
+🇬🇧 This page is also available [in English](../gallery.qmd).
+:::
+
+Cliquez sur une photo pour l'agrandir ; les flèches parcourent la section en
+cours. Les photos de diapositives sont accompagnées d'une transcription dans la
+vue agrandie.
+
+Photos de Bruno Seznec, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Le contenu des diapositives reste la propriété des intervenants et de leurs organisations.
+
+## Gand
+
+### Le site de la Bijloke
+
+::: {.gallery}
+
+![Le site de la Bijloke, tôt le matin](../assets/photos/city/20260915_061813508.jpg){group="gand" fig-alt="Bâtiments néogothiques en brique rouge autour d'une place pavée, panneau BIJLOKESITE, ciel bleu"}
+
+![Site de la Bijloke, l'aile néogothique](../assets/photos/city/20260915_081348346.jpg){group="gand" fig-alt="Bâtiment néogothique en brique rouge avec une flèche élancée, derrière une pelouse"}
+
+![Site de la Bijloke, la pelouse](../assets/photos/city/20260915_081354028.jpg){group="gand" fig-alt="Pelouse avec tables de pique-nique devant un ancien bâtiment en brique aux cheminées rouges"}
+
+![Grande salle : la charpente](../assets/photos/city/20260916_064320160.jpg){group="gand" fig-alt="Fermes de charpente en bois courbes au-dessus de murs blanchis et d'une fenêtre gothique"}
+
+![Grande salle, avant la première session](../assets/photos/city/20260916_085105707.jpg){group="gand" fig-alt="Sièges gris vides sous une charpente en bois, fenêtres gothiques et statue au mur du fond"}
+
+:::
+
+### L'hôtel de ville
+
+::: {.gallery}
+
+![Hôtel de ville, aile Renaissance (Poeljemarkt)](../assets/photos/city/20260915_160424224.jpg){group="gand" fig-alt="Façade Renaissance aux colonnes noires et chapiteaux dorés, quelques passants"}
+
+![Réception d'accueil à l'hôtel de ville](../assets/photos/city/20260915_160729849.jpg){group="gand" fig-alt="Participants réunis dans une salle gothique en pierre ornée de blasons peints ; une oratrice au pupitre entourée de drapeaux" description="Peints sur les murs : les blasons et noms des souverains bourguignons et habsbourgeois, par ex. Hertoghe Karel van Bourgognen +1477, Vrau Isabella van Bourbon +1465, Keyser Maximiliaen van Oostenryck +1519."}
+
+![La salle gothique et sa grande cheminée](../assets/photos/city/20260915_160735591.jpg){group="gand" fig-alt="Cheminée monumentale en pierre entre des blasons peints, participants en dessous" description="Peints sur les murs : les blasons et noms des souverains bourguignons et habsbourgeois, par ex. Hertoghe Karel van Bourgognen +1477, Vrau Isabella van Bourbon +1465, Keyser Maximiliaen van Oostenryck +1519."}
+
+![Pupitre et drapeaux](../assets/photos/city/20260915_163506131.jpg){group="gand" fig-alt="Bancs en bois, pupitre et drapeaux de Gand, de la Flandre, de la Belgique et de l'UE sous des blasons peints"}
+
+![Le sol en damier de la salle](../assets/photos/city/20260915_163509548.jpg){group="gand" fig-alt="Tribune en bois sur un sol en damier noir et blanc, blasons au mur"}
+
+![La réception près de la cheminée](../assets/photos/city/20260915_163513417.jpg){group="gand" fig-alt="Participants discutant autour de mange-debout devant la cheminée en pierre"}
+
+![Une salle du conseil](../assets/photos/city/20260915_164728014.jpg){group="gand" fig-alt="Longue table en bois et chaises en cuir, lustre, vitraux et grand portrait"}
+
+![Tableaux et manuscrit exposé](../assets/photos/city/20260915_164759794.jpg){group="gand" fig-alt="Salle aux grandes toiles peintes, boiseries et livre sur un coussin rouge dans une vitrine"}
+
+:::
+
+### La vieille ville au crépuscule
+
+::: {.gallery}
+
+![L'ancienne poste, Korenmarkt](../assets/photos/city/20260915_180726540.jpg){group="gand" fig-alt="Bâtiment néogothique de l'ancienne poste avec sa tour-horloge, au crépuscule"}
+
+![Vélos sur le Korenmarkt](../assets/photos/city/20260915_180730359.jpg){group="gand" fig-alt="Rangées de vélos garés sur une place pavée, la tour de la poste à gauche"}
+
+![La Lys depuis le pont Saint-Michel](../assets/photos/city/20260915_180915140.jpg){group="gand" fig-alt="Canal bordé de façades historiques et de terrasses sous un ciel du soir nuageux"}
+
+![Pont Saint-Michel : les trois tours](../assets/photos/city/20260915_180941758.jpg){group="gand" fig-alt="Lampadaire surmonté d'un archange doré, l'église Saint-Nicolas et le beffroi au loin"}
+
+![Vitrail au crépuscule](../assets/photos/city/20260915_181650095.jpg){group="gand" fig-alt="Église néogothique en brique avec un grand vitrail éclairé et une guirlande lumineuse"}
+
+![Façade gothique sous échafaudage](../assets/photos/city/20260916_105514523.jpg){group="gand" fig-alt="Façade d'église gothique en pierre grise aux fenêtres à remplages, échafaudage à droite"}
+
+![Une façade ornée](../assets/photos/city/20260916_163330921.jpg){group="gand" fig-alt="Vue en contre-plongée d'une façade en pierre richement sculptée avec une grande entrée en arc"}
+
+![Le Bateau, amarré sur le canal](../assets/photos/city/20260916_163351879.jpg){group="gand" fig-alt="Péniche à coque noire nommée Le Bateau, pont couvert, arbres derrière"}
+
+![Le Korenmarkt à l'heure bleue](../assets/photos/city/20260916_181644366.jpg){group="gand" fig-alt="Terrasses éclairées et maisons à pignons, la tour de la poste sur un ciel bleu profond"}
+
+![Le Gravensteen, château des comtes](../assets/photos/city/20260916_181814463.jpg){group="gand" fig-alt="Murailles et donjon médiévaux illuminés, vélos au premier plan"}
+
+![La porte du Gravensteen](../assets/photos/city/20260916_181825721.jpg){group="gand" fig-alt="Châtelet illuminé avec une porte en bois verte, quelques passants"}
+
+![Le Sint-Veerleplein le soir](../assets/photos/city/20260916_181828152.jpg){group="gand" fig-alt="Place avec maisons de corporation éclairées, terrasses et vélos garés"}
+
+![Passerelle et arcade aux statues](../assets/photos/city/20260916_182234124.jpg){group="gand" fig-alt="Passerelle en fer forgé au-dessus de l'eau, arcade en brique avec statues de pierre"}
+
+![Pignon à redans entre deux tours rondes](../assets/photos/city/20260916_182429660.jpg){group="gand" fig-alt="Bâtiment en pierre claire illuminé, pignon à redans encadré de deux tours à toit conique"}
+
+![Hockey en nocturne](../assets/photos/city/20260916_185049214.jpg){group="gand" fig-alt="Terrain de hockey bleu sous les projecteurs, joueurs à l'entraînement"}
+
+![Au bord de l'eau, la nuit](../assets/photos/city/20260916_185758465.jpg){group="gand" fig-alt="Chemin au bord de l'eau la nuit, lumières de la ville reflétées"}
+
+:::
+
+## Conférence
+
+### Exposés et diapositives
+
+::: {.gallery}
+
+![Taxonomie V&V pour la construction de KG (Bosch) — intervenant·e à compléter](../assets/photos/conf/20260915_135745176.jpg){group="conference" fig-alt="Intervenante au micro à côté d'un écran affichant une diapositive Bosch intitulée Verification & Validation Taxonomy for KG Construction" description="Diapositive : Verification & Validation Taxonomy for KG Construction — Conclusion & Outlook. La taxonomie V&V structure le domaine de la construction industrielle de KG, pour soutenir la construction neuro-symbolique / assistée par LLM dans des contextes industriels critiques. Cinq dimensions : Evaluation Artefact, Reference Basis, Evaluation Perspective, Evaluation Executive, Temporal Execution. Lacunes de reporting observées sur 50 études (cas manufacturier) : contrôles syntaxiques, dépendance aux jeux de données, méthodes neuronales, perspective d'évaluation, reproductibilité, reporting structuré de la V&V. Travaux futurs : extension aux données multimodales (audio, image, vidéo) ; validation sur d'autres domaines critiques comme la santé et la conduite autonome. Diapositive © Bosch."}
+
+![Questions-réponses — un exposé sur l'aéroport d'Amsterdam-Schiphol (titre et intervenants à compléter)](../assets/photos/conf/20260916_103619482.jpg){group="conference" fig-alt="Deux intervenants de part et d'autre d'un écran affichant Questions? Let's discuss. sur une photo de l'aéroport de Schiphol"}
+
+![Elody, plateforme de données open source (Inuits)](../assets/photos/conf/20260917_104605854.jpg){group="conference" fig-alt="Gros plan sur un navigateur affichant github.com/inuits/elody-common et un onglet nommé DAMS" description="Elody est une plateforme de données modulaire et open source développée par la communauté Inuits. Elle sert de DAMS à la ville d'Anvers, qui réunit les collections numériques de ses musées, bibliothèques et institutions patrimoniales, avec données liées et IIIF. Code : github.com/inuits/elody-common"}
+
+![How good are LLMs at Ontology Engineering? — diapositive de conclusion](../assets/photos/conf/20260917_134330889.jpg){group="conference" fig-alt="Diapositive demandant si une ontologie générée automatiquement est vraiment une ontologie, et listant questions de compétence et provenance" description="Diapositive (bord droit coupé sur la photo) : au fond, une ontologie générée automatiquement est-elle vraiment une ontologie ? (Gruber 92) : une ontologie est une spécification formelle d'une conceptualisation partagée. Les progrès de l'IA sont rapides ; les scores vont sans doute progresser dans les mois à venir (avec des limites comme la contamination). Atouts clés pour que les résultats des LLM soient utiles : des questions de compétence pour guider le développement des ontologies ; la provenance — expliquer les résultats des benchmarks, pas seulement donner des chiffres ; expliquer pourquoi un terme est ajouté à une ontologie, ou pourquoi une CQ est proposée."}
+
+:::
+
+### Lieux et soirées
+
+::: {.gallery}
+
+![La grande salle avant l'ouverture du jour 2](../assets/photos/conf/20260916_064330331.jpg){group="conference" fig-alt="Salle de concert aux sièges gris, un accordéoniste sur scène et une diapositive Group Photo sur le grand écran" description="À l'écran : Group Photo — To be completed upon weather check."}
+
+![Réception du soir dans un théâtre historique](../assets/photos/conf/20260916_164850512.jpg){group="conference" fig-alt="Participants réunis sous les balcons rouge et or d'un théâtre, projecteurs colorés"}
+
+![La scène du théâtre, prête pour le DJ](../assets/photos/conf/20260916_164855918.jpg){group="conference" fig-alt="Scène de théâtre avec une cabine de DJ sous des faisceaux rouges et blancs, dans la brume"}
+
+:::
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Galerie photo — SEMANTiCS 2026, Gand",
+  "inLanguage": "fr",
+  "author": {"@type": "Person", "name": "Bruno Seznec", "url": "https://www.linkedin.com/in/brunoseznec/"},
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "contentLocation": {"@type": "Place", "name": "Ghent", "sameAs": "https://www.wikidata.org/wiki/Q1296"},
+  "about": {"@id": "https://2026-eu.semantics.cc/#conference"}
+}
+</script>
+```
